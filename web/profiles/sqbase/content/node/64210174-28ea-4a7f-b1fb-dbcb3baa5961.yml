@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 64210174-28ea-4a7f-b1fb-dbcb3baa5961
+  bundle: page
+  default_langcode: ja
+  depends:
+    c67b8b9f-8ef4-46d0-ab78-bf41c2c8d2ea: media
+    ec73831a-ef2c-48ff-b6fd-a8e77b3b45b9: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 高度な拡張性
+  created:
+    -
+      value: 1666180896
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /features/extensibility
+      langcode: ja
+      pathauto: 0
+  body:
+    -
+      value: "<p>グローバル企業、政府機関、大学、非営利組織等の大規模 Web サイトで実績がある&nbsp;<a href=\"https://drupal.org/\" rel=\"noopener\" target=\"_blank\">Drupal</a> を CMS（コンテンツ管理システム）に採用。世界で最も成功したオープンソース プロジェクトとしても有名なソフトウェアです。</p>\r\n\r\n<p>Drupal は、単にホームページのコンテンツを管理するアプリケーションを超え、認証・認可、永続データのスキーマ定義、イベント処理など、多様な Web システムを開発するための拡張可能なプラットフォームを提供します。インターネットでデジタル情報を共有する DX（デジタル トランスフォーメーション）の基盤と見ることもできましょう。</p>\r\n\r\n<p>DX なホームページ作りませんか？</p>\r\n"
+      format: full_html
+      summary: 'Drupal をベースに構築されており、高度な拡張性を備えています。'
+  field_banner:
+    -
+      entity: c67b8b9f-8ef4-46d0-ab78-bf41c2c8d2ea
+  field_category:
+    -
+      entity: ec73831a-ef2c-48ff-b6fd-a8e77b3b45b9

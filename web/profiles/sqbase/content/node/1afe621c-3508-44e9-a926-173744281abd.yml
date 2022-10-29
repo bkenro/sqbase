@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1afe621c-3508-44e9-a926-173744281abd
+  bundle: page
+  default_langcode: ja
+  depends:
+    758807ae-89a3-4010-b91d-8dbb3fbaa8c3: media
+    fafd797b-0d1e-42f8-9901-e3708b224076: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: ブログ機能
+  created:
+    -
+      value: 1666870874
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /features/blog
+      langcode: ja
+      pathauto: 0
+  body:
+    -
+      value: "<p>記事コンテンツを蓄積する機能が組み込まれており、そのままブログサイトとして運用できます。投稿フォームにはバナー画像や要約を指定するフィールドがあり、OGP や Twitter Cards といった SNS 連携を含む基本的なメタタグを自動生成する機能も実装済みです。</p>\r\n\r\n<p>コンテンツの作成に関しては、WYSYWIG エディタによる基本的な書式設定、リンクや画像、引用、主要言語のソースコードといった主要な HTML 要素を埋め込む機能のほか、HTML ソースの直接編集にも対応。<a href=\"/features/w3css\">CSS フレームワーク</a>を利用した、より高度なスタイル指定も可能です。</p>\r\n\r\n<p>記事のほかにも、主要コンテンツに見立てた基本ページと、それらを組み合わせたサイト構成の例にもなっています。ビジネスブログやシンプルな企業サイトなど、汎用的なウェブサイトのひな型としてご利用ください。</p>\r\n"
+      format: basic_html
+      summary: ブログとして使える記事コンテンツの蓄積機能が組み込まれています。
+  field_banner:
+    -
+      entity: 758807ae-89a3-4010-b91d-8dbb3fbaa8c3
+  field_category:
+    -
+      entity: fafd797b-0d1e-42f8-9901-e3708b224076

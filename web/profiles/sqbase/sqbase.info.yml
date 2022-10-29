@@ -1,0 +1,150 @@
+name: SQbase
+type: profile
+description: 'Synergy Quest basic site install profile.'
+core_version_requirement: ^9
+install:
+  - addtoany
+  - admin_toolbar
+  - admin_toolbar_tools
+  - automated_cron
+  - back_to_top
+  - ban
+  - big_pipe
+  - block
+  - block_class
+  - block_content
+  - breakpoint
+  - ckeditor
+  - codesnippet
+  - coffee
+  - colorbox
+  - colorbutton
+  - comment
+  - config
+  - contact
+  - contextual
+  - ctools
+  - datetime
+  - dblog
+  - default_content
+  - dynamic_page_cache
+  - easy_breadcrumb
+  - editor
+  - editor_advanced_link
+  - field
+  - field_ui
+  - file
+  - filter
+  - help
+  - history
+  - image
+  - imce
+  - insert
+  - insert_colorbox
+  - jquery_ui
+  - jquery_ui_effects
+  - language
+  - link
+  - locale
+  - media
+  - media_library
+  - menu_link_content
+  - menu_ui
+  - metatag
+  - metatag_open_graph
+  - metatag_twitter_cards
+  - metatag_views
+  - mysql
+  - node
+  - options
+  - page_cache
+  - panelbutton
+  - path
+  - path_alias
+  - rdf
+  - redirect
+  - schema_metatag
+  - shortcut
+  - squtil
+  - system
+  - taxonomy
+  - text
+  - token
+  - toolbar
+  - tour
+  - update
+  - user
+  - views_ui
+  - xmlsitemap_engines
+  - pathauto
+  - xmlsitemap
+  - views
+themes:
+  - bartik
+  - seven
+  - drupal8_w3css_theme
+  - sqw3css
+
+default_content:
+  node:
+    - ee04a30d-056c-4bec-a9eb-5c5877ec0d27
+    - 77768605-3077-4646-bcf2-e68904f33b19
+    - 1afe621c-3508-44e9-a926-173744281abd
+    - 64210174-28ea-4a7f-b1fb-dbcb3baa5961
+    - d977e3af-f088-47fe-8a7d-2a754e614b20
+    - c440b100-995d-4ad5-80e1-6253c1bc5488
+    - 7afce19b-8706-4b41-a4c4-49f091e4a0bd
+    - 4a6e6f38-0b11-44e4-a9f2-f9474684428d
+    - a3c5b1e7-86db-4323-859c-77e6e110fc47
+    - 75e2a76f-2f0b-448a-875f-84cd87c93403
+    - 62016d85-19bb-4216-83a7-bf692a182357
+    - 70b77727-9911-46cf-883c-60fe0f47b567
+    - 73a9a27f-ec34-4b50-b024-0b2e085fe61e
+    - 28573470-4bf7-4380-b1ed-890cab30dbd3
+    - 652af072-d6a1-4c00-913f-c106156d79a3
+  file:
+    - 3f652610-91f4-48b0-8996-ca241ef7f70c
+    - 575f78a0-7fea-4b2d-8355-792b6a3a44d3
+    - 631d2414-4d9c-4b69-8538-dae613419e56
+    - 73a4c9a1-51b1-4350-8588-ec19b4a3352b
+    - 79c740e5-3a4f-4bad-8b6f-38e3aae348fd
+    - 7ded3079-79c7-41a5-8e59-3728f2acc076
+    - 84b09cc2-e20b-4afd-b6aa-3de077de52f4
+    - 906013e9-448a-4600-9602-c203e507bae4
+    - 9e1ba033-ff8a-4c26-9622-7a3cc62744e9
+    - a9cafd74-abdc-40cc-879b-0032bf48fd52
+    - abc09c97-3ba7-45fd-8523-0d5c145e6368
+    - ccd2699f-bc04-40af-9cc2-3cd25746fa2e
+    - e5199f17-250b-4657-a6b4-9dc9e9ff8e57
+    - ed969a3a-2f66-4858-aecd-15d0d4512049
+  media:
+    - 096ef6ad-65cb-4908-9906-8cab01224aa0
+    - 23c03e06-bc23-4e06-8a7a-95cfe573e397
+    - 253bb1d5-18a8-47cb-902f-81ed7813fd6b
+    - 35709a96-2f9b-4f61-985a-5bb3cf32580d
+    - 60569a4c-d7a9-4716-bca8-03835746cc2d
+    - 758807ae-89a3-4010-b91d-8dbb3fbaa8c3
+    - a7f104d8-6a40-4fcb-9003-68059ffa997f
+    - ab5679db-3bd1-4b26-b58e-a21b3164db80
+    - c67b8b9f-8ef4-46d0-ab78-bf41c2c8d2ea
+  menu_link_content:
+    - 0d94367e-309e-40b3-8ae1-bb798e774784
+    - 26a0182c-33e3-4ce8-8286-b6246513704c
+    - 3e65f930-e749-4bdd-a855-68c2575ba65f
+    - 3eb6ba75-5af9-4101-8952-38accb8ce8a0
+    - 6b8b3316-a9db-4aa5-85ac-696ffebf5ac8
+    - 9d3587f8-9f5c-4a77-a2b1-bfbe7c2475a8
+    - ae8dd1c7-77d6-4992-8f93-4bf6bcc75629
+  taxonomy_term:
+    - ec73831a-ef2c-48ff-b6fd-a8e77b3b45b9
+    - fafd797b-0d1e-42f8-9901-e3708b224076
+    - 9629e3f0-d110-481a-8a3f-c9791de81576
+  block_content:
+    - 2bfd7917-dc97-4339-a797-76d5ae882068
+    - 64e96fee-0b0d-4a42-b19c-33cbc01bae8b
+    - 96993c0a-ed1a-4c9e-ae2a-c066fdf1f226
+    - a2e01f8f-52cc-4841-b70e-f689fd602712
+    - b9cc58c2-8d88-478f-bfd3-b87de8602c3c
+    - babe213b-d722-4619-b414-dbe771a653eb
+    - ce5d94d6-6d91-42f0-ac9d-4324c437c7ed
+    - fc628ea8-385d-47db-929c-9f254fe05ee1

@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 652af072-d6a1-4c00-913f-c106156d79a3
+  bundle: page
+  default_langcode: ja
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 特徴
+  created:
+    -
+      value: 1666499632
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /features
+      langcode: ja
+      pathauto: 0
+  body:
+    -
+      value: "<p>３つの観点から、このホームページ構築キットの特徴を紹介しています。</p>\r\n\r\n<p>各項目を順にご覧ください。</p>\r\n"
+      format: basic_html
+      summary: ''

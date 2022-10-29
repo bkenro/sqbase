@@ -1,0 +1,89 @@
+langcode: ja
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+    - field.field.block_content.basic.body
+    - field.field.block_content.basic.field_image
+    - image.style.thumbnail
+  module:
+    - image
+    - imce
+    - insert
+    - text
+id: block_content.basic.default
+targetEntityType: block_content
+bundle: basic
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 1
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 3
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings:
+      imce:
+        enabled: true
+      insert:
+        styles:
+          image: image
+          blog_thumbnail: blog_thumbnail
+          bottom_thumbnail: bottom_thumbnail
+          medium: medium
+          large: large
+          insert__auto: 0
+          link: 0
+          icon_link: 0
+          audio: 0
+          video: 0
+          colorbox__blog_thumbnail: 0
+          colorbox__bottom_thumbnail: 0
+          colorbox__large: 0
+          colorbox__media_library: 0
+          colorbox__medium: 0
+          colorbox__og_image: 0
+          colorbox__thumbnail: 0
+          colorbox__twitter_card: 0
+          colorbox__twitter_card_large: 0
+          colorbox__wide: 0
+          media_library: 0
+          og_image: 0
+          twitter_card: 0
+          twitter_card_large: 0
+          wide: 0
+          thumbnail: 0
+        default: image
+        auto_image_style: blog_thumbnail
+        link_image: ''
+        width: ''
+        caption: 0
+        align: 0
+        rotate: 0
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

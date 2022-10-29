@@ -1,0 +1,23 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - block_class
+    - help
+  theme:
+    - bartik
+third_party_settings:
+  block_class:
+    classes: null
+id: bartik_help
+theme: bartik
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

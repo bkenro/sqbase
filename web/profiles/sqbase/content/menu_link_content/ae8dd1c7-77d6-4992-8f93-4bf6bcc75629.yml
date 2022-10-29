@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: ae8dd1c7-77d6-4992-8f93-4bf6bcc75629
+  bundle: menu_link_content
+  default_langcode: ja
+  depends:
+    0d94367e-309e-40b3-8ae1-bb798e774784: menu_link_content
+    64210174-28ea-4a7f-b1fb-dbcb3baa5961: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 高度な拡張性
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 64210174-28ea-4a7f-b1fb-dbcb3baa5961
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -48
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:0d94367e-309e-40b3-8ae1-bb798e774784'
+  revision_translation_affected:
+    -
+      value: true

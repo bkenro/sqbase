@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 3e65f930-e749-4bdd-a855-68c2575ba65f
+  bundle: menu_link_content
+  default_langcode: ja
+  depends:
+    0d94367e-309e-40b3-8ae1-bb798e774784: menu_link_content
+    1afe621c-3508-44e9-a926-173744281abd: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: ブログ機能
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 1afe621c-3508-44e9-a926-173744281abd
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -50
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:0d94367e-309e-40b3-8ae1-bb798e774784'
+  revision_translation_affected:
+    -
+      value: true

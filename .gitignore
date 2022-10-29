@@ -1,0 +1,26 @@
+# .gitignore for D9 project managed with Composer.
+
+# Ignore files generated from the pj template
+/vendor
+/web/.*
+/web/*.php
+/web/*.php
+/web/*.txt
+/web/example.gitignore
+/web/web.config
+/web/core
+/web/libraries
+/web/modules/contrib
+/web/modules/README.txt
+/web/themes/contrib
+/web/themes/README.txt
+/web/sites
+
+# Ignore user generated files
+/private
+/tmp
+
+# Ignore files for dev-tools etc.
+/nbproject
+/.vscode
+/misc

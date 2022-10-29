@@ -1,0 +1,23 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - block_class
+    - help
+  theme:
+    - seven
+third_party_settings:
+  block_class:
+    classes: null
+id: seven_help
+theme: seven
+region: help
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

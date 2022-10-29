@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ee04a30d-056c-4bec-a9eb-5c5877ec0d27
+  bundle: page
+  default_langcode: ja
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Drupal でカンタン！ホームページ作成'
+  created:
+    -
+      value: 1666243429
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /about
+      langcode: ja
+      pathauto: 0
+  body:
+    -
+      value: "<h2>SQbase「すくべー」</h2>\r\n\r\n<p><a href=\"https://github.com/bkenro/sqbase\" rel=\"noopener\" target=\"_blank\">SQbase</a>（エス・キュー・ベース、愛称「すくべー」）は、シンプルなサイト構成とサンプル コンテンツを組み込んだ Drupal のインストール プロファイルです。<a href=\"https://drupal-meetup-toyota.connpass.com/\">Drupal Meetup 豊田</a>の書籍執筆活動で得られた知見に基づいて作成したものです。Drupal のサイト構築トレーニング等、どうぞご自由にお使いください。</p>\r\n"
+      format: full_html
+      summary: ''

@@ -1,0 +1,54 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 75e2a76f-2f0b-448a-875f-84cd87c93403
+  bundle: article
+  default_langcode: ja
+  depends:
+    253bb1d5-18a8-47cb-902f-81ed7813fd6b: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 寂しき魚
+  created:
+    -
+      value: 1665057941
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /blog/1665057941
+      langcode: ja
+      pathauto: 1
+  body:
+    -
+      value: "<p>それは古い沼で、川尻からつづいて蒼くどんよりとしていた上に、葦やよしがところどころに暗いまでに繁っていました。沼の水はときどき静かな波を風のまにまに湛えるほかは、しんとして、きみのわるいほど静まりきっていました。ただ、おりおり、岸の葦のしげみに川蝦が、その長い髭を水の上まで出して跳ねるばかりでした。</p>\r\n\r\n<p>その沼はいつごろからあったものか誰も知らない。涸れたこともなければ、減ったこともなく、ゆらゆらした水がいつも沼一杯にみなぎっていた。そのうえには、どんよりした鉛筆でぼかしたような曇った日ざしが、晩い秋頃らしく、重く、低い雲脚を垂れていたのです。</p>\r\n\r\n<p>そこには非常に古い一匹の魚が住んでいて、岸の方の葦のくらやみに、ぼんやりと浮きあがっていました。かれは水中の王者のように、その大きなからだを水面とすれすれにさせながら、いつも動かず震えもしないで、しずかに、ゆっくりと浮きあがっていたのです。その魚の藍ばんだ鱗には、のめのめな水苔が生えていて、どれだけ古く生きていたかが解るのでした。ただに鱗ばかりではなく、尾やひれまでに微塵な、水垢のようなこまかい藻のようなものが生え、それが顫えるということもなく、かれのからだ一面に震えていました。</p>\r\n"
+      format: basic_html
+      summary: それは古い沼で、川尻からつづいて蒼くどんよりとしていた上に、葦やよしがところどころに暗いまでに繁っていました。沼の水はときどき静かな波を風のまにまに湛えるほかは、しんとして、きみのわるいほど静まりきっていました。
+  comment:
+    -
+      status: 1
+      cid: 0
+      last_comment_timestamp: 1667014372
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_banner:
+    -
+      entity: 253bb1d5-18a8-47cb-902f-81ed7813fd6b

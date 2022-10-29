@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 77768605-3077-4646-bcf2-e68904f33b19
+  bundle: page
+  default_langcode: ja
+  depends:
+    096ef6ad-65cb-4908-9906-8cab01224aa0: media
+    9629e3f0-d110-481a-8a3f-c9791de81576: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'W3.CSS ベース'
+  created:
+    -
+      value: 1666179526
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /features/w3css
+      langcode: ja
+      pathauto: 0
+  body:
+    -
+      value: "<p>サイトの外観を決めるテーマは、CSS フレームワークの&nbsp;<a href=\"https://www.w3schools.com/w3css/\" rel=\"noopener\" target=\"_blank\">W3.CSS</a> を利用した <a href=\"https://www.drupal.org/project/d8w3css\" rel=\"noopener\" target=\"_blank\">W3CSS Theme</a> をベースにしています。オリジナルのテーマ設定のほか、Web フォントの <a href=\"https://fonts.google.com/\" rel=\"noopener\" target=\"_blank\">Google Fonts</a> のオプションは、主要な<a href=\"https://googlefonts.github.io/japanese/\" rel=\"noopener\" target=\"_blank\">日本語フォント</a>が利用できるように拡張されています。</p>\r\n\r\n<p>W3.CSS のライブラリはサイト全体で利用可能です。テーマのカスタマイズはもちろん、ブログ記事や基本ページといったコンテンツのマークアップでも、W3.CSS のシンプルで実用的なユーティリティ クラスによる装飾やレイアウト指定が可能です。</p>\r\n\r\n<p>W3.CSS の詳細については、<a href=\"https://www.w3schools.com/w3css/\" rel=\"noopener\" target=\"_blank\">チュートリアル</a>（英語）を参照してください。日本語の情報としては、書籍<a href=\"https://www.amazon.co.jp/dp/B0BDGFDWDR\" rel=\"noopener\" target=\"_blank\">「Drupal 9 おいしいレシピ集 3」</a>で、このフレームワークと W3CSS Theme&nbsp;の特徴を紹介しています。</p>\r\n"
+      format: full_html
+      summary: "CSS フレームワークの\_W3.CSS に基づくテーマを採用しています。"
+  field_banner:
+    -
+      entity: 096ef6ad-65cb-4908-9906-8cab01224aa0
+  field_category:
+    -
+      entity: 9629e3f0-d110-481a-8a3f-c9791de81576

@@ -1,0 +1,22 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - block_class
+  theme:
+    - seven
+third_party_settings:
+  block_class:
+    classes: null
+id: seven_page_title
+theme: seven
+region: header
+weight: -30
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

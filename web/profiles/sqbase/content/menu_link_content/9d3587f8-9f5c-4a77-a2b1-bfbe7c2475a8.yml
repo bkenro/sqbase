@@ -1,0 +1,45 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 9d3587f8-9f5c-4a77-a2b1-bfbe7c2475a8
+  bundle: menu_link_content
+  default_langcode: ja
+  depends:
+    0d94367e-309e-40b3-8ae1-bb798e774784: menu_link_content
+    77768605-3077-4646-bcf2-e68904f33b19: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'W3.CSS ベース'
+  description:
+    -
+      value: 'W3.CSS ベース'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 77768605-3077-4646-bcf2-e68904f33b19
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -49
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:0d94367e-309e-40b3-8ae1-bb798e774784'
+  revision_translation_affected:
+    -
+      value: true

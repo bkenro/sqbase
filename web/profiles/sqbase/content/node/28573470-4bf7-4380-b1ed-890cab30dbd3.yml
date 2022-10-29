@@ -1,0 +1,54 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 28573470-4bf7-4380-b1ed-890cab30dbd3
+  bundle: article
+  default_langcode: ja
+  depends:
+    60569a4c-d7a9-4716-bca8-03835746cc2d: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: ネクタイとステッキ
+  created:
+    -
+      value: 1665406057
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /blog/1665406057
+      langcode: ja
+      pathauto: 1
+  body:
+    -
+      value: "<p>ネクタイやステッキ。僕は一向そんな代物の愛好家ではない。そんな者に僕を仕立てゝしまつたのは、天下のゴシップである。</p>\r\n\r\n<p>ゴシップによると、僕は三千本のネクタイを持つてゐるさうである！　まあ考へても見たまへ。一本五円と見つもつて、三千本で一万五千円也。僕は不幸にもそれほど徹底的に非常識にはなれない。ネクタイ三千本は実に白髪三千丈のたぐひで、たくさんといふことのつもりなのかも知れない。それでは僕は事実に於て一たい、何本ぐらゐそれを持つてゐるであらうか。数へて見た事もないがまづ、せいぜい三十本か四十本。尤も僕は何品によらず蒐集する趣味は一向にない。――なかつたと言つた方がいゝかも知れない。といふのは近ごろ少し、蒐集家といふものゝ心持がわかつて来たから。</p>\r\n\r\n<p>それにしても僕は蒐集するよりは放散する事の方により多くの興味がある。だから、僕はネクタイでも可なり放散した。つまり、人が欲しいといふとくれてやつたりしたものも少くない。しかし、それを大切に一々保存して置いたとしてもおそらく三百本とはあるまい。僕は十五年間、洋服を着用してゐる。十五年間に三百本のネクタイを買ふことは別に道楽といふ程のものではなからうではないか。</p>\r\n"
+      format: basic_html
+      summary: ネクタイやステッキ。僕は一向そんな代物の愛好家ではない。そんな者に僕を仕立てゝしまつたのは、天下のゴシップである。
+  comment:
+    -
+      status: 1
+      cid: 0
+      last_comment_timestamp: 1667014372
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_banner:
+    -
+      entity: 60569a4c-d7a9-4716-bca8-03835746cc2d
