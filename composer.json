@@ -65,7 +65,7 @@
         "drupal/default_content": "^2.0@alpha",
         "drupal/devel": "^4.1",
         "drupal/easy_breadcrumb": "^2.0",
-        "drupal/editor_advanced_link": "^2.0",
+        "drupal/editor_advanced_link": "^2.1",
         "drupal/google_tag": "^1.5",
         "drupal/imce": "^2.5",
         "drupal/insert": "^2.0@beta",
