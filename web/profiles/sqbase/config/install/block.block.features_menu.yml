@@ -10,7 +10,7 @@ dependencies:
     - sqw3css
 third_party_settings:
   block_class:
-    classes: null
+    classes: submenu-sidebar-block
 id: features_menu
 theme: sqw3css
 region: sidebar_second
