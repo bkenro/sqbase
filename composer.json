@@ -75,7 +75,7 @@
         "drupal/metatag": "^1.19",
         "drupal/pathauto": "^1.10",
         "drupal/redirect": "^1.7",
-        "drupal/schema_metatag": "^2.3",
+        "drupal/schema_metatag": "^2.4",
         "drupal/token": "^1.10",
         "drupal/webform": "^6.1",
         "drupal/webprofiler": "^9.0",
