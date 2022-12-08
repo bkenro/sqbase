@@ -2,21 +2,21 @@ langcode: ja
 status: true
 dependencies:
   module:
-    - block_class
+    - system
   theme:
-    - bartik
+    - claro
 third_party_settings:
   block_class:
     classes: null
-id: bartik_page_title
-theme: bartik
+id: claro_content
+theme: claro
 region: content
-weight: -50
+weight: 0
 provider: null
-plugin: page_title_block
+plugin: system_main_block
 settings:
-  id: page_title_block
-  label: 'Page title'
+  id: system_main_block
+  label: 'Main page content'
   label_display: '0'
-  provider: core
+  provider: system
 visibility: {  }

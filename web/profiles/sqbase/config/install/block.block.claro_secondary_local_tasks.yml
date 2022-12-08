@@ -1,24 +1,22 @@
 langcode: ja
 status: true
 dependencies:
-  module:
-    - block_class
   theme:
-    - seven
+    - claro
 third_party_settings:
   block_class:
     classes: null
-id: seven_primary_local_tasks
-theme: seven
-region: header
+id: claro_secondary_local_tasks
+theme: claro
+region: pre_content
 weight: 0
 provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: プライマリータブ
+  label: 'Secondary tabs'
   label_display: '0'
   provider: core
-  primary: true
-  secondary: false
+  primary: false
+  secondary: true
 visibility: {  }

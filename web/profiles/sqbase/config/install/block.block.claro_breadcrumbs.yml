@@ -2,15 +2,14 @@ langcode: ja
 status: true
 dependencies:
   module:
-    - block_class
     - system
   theme:
-    - bartik
+    - claro
 third_party_settings:
   block_class:
     classes: null
-id: bartik_breadcrumbs
-theme: bartik
+id: claro_breadcrumbs
+theme: claro
 region: breadcrumb
 weight: 0
 provider: null

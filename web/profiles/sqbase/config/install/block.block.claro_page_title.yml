@@ -1,23 +1,20 @@
 langcode: ja
 status: true
 dependencies:
-  module:
-    - block_class
-    - help
   theme:
-    - bartik
+    - claro
 third_party_settings:
   block_class:
     classes: null
-id: bartik_help
-theme: bartik
-region: content
+id: claro_page_title
+theme: claro
+region: header
 weight: -30
 provider: null
-plugin: help_block
+plugin: page_title_block
 settings:
-  id: help_block
-  label: Help
+  id: page_title_block
+  label: 'Page title'
   label_display: '0'
-  provider: help
+  provider: core
 visibility: {  }
