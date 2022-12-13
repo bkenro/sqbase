@@ -1,0 +1,24 @@
+uuid: 038a1d12-a15f-4d2c-bcb0-64aacae5750b
+langcode: ja
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+  module:
+    - comment
+    - contact
+    - filter
+    - media
+    - system
+_core:
+  default_config_hash: mQiBGd_7ZO8Ao19HsLvUwref1Lu0-N8pKo9lxbCwhMI
+id: anonymous
+label: 匿名ユーザー
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'use text format restricted_html'
+  - 'view media'

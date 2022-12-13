@@ -1,0 +1,23 @@
+uuid: 9896664c-799a-41ca-9b9f-a892626d72af
+langcode: ja
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - sqw3css
+_core:
+  default_config_hash: bybz24FhFQovt1W-8kJAeM8FqdwxgXJ7Po6znZZk0j8
+id: sqw3css_messages
+theme: sqw3css
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: ステータスメッセージ
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 9bf9aceb-eff0-4d24-b8b4-587ad363b78f
+langcode: ja
+status: true
+dependencies:
+  module:
+    - block_class
+  theme:
+    - sqw3css
+_core:
+  default_config_hash: kiQEDg5wWWDHiNidqfdJprPul45fWJ7-cnZkSoZ-204
+id: sqw3css_local_actions
+theme: sqw3css
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: プライマリ管理アクション
+  label_display: '0'
+  provider: core
+visibility: {  }

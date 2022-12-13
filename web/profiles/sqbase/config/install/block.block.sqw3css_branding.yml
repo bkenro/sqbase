@@ -6,9 +6,6 @@ dependencies:
     - system
   theme:
     - sqw3css
-third_party_settings:
-  block_class:
-    classes: null
 id: sqw3css_branding
 theme: sqw3css
 region: header

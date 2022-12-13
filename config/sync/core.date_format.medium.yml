@@ -1,0 +1,10 @@
+uuid: 99f578e1-99ed-4e7a-a655-ec54b42ebfda
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1rRhPeG7PuaZOWbsA4GV3DJhdMVvm1-FpgmZNmFwAuY
+id: medium
+label: デフォルトの中ぐらいの日付
+locked: false
+pattern: 'Y/m/d(D) - H:i'

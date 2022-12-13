@@ -1,0 +1,10 @@
+uuid: 499a9564-e6d3-43a8-a664-06d193cb3b17
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: gZLIrueMQiRFfQYL-P2lnlB8-54tlZVe2RVBWZR1DAI
+name: カテゴリ
+vid: category
+description: サイト上のページを分類するにはカテゴリが使用できます。
+weight: 0

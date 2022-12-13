@@ -5,9 +5,6 @@ dependencies:
     - block_class
   theme:
     - sqw3css
-third_party_settings:
-  block_class:
-    classes: null
 id: bottom_block1
 theme: sqw3css
 region: bottom_first

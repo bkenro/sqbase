@@ -1,0 +1,10 @@
+uuid: 80707fb5-144d-41e9-8e13-21b4cdbae5dd
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: GWrWBL3PvPVRW2PXeGROrsUljTKqUE48GioFNGWq6YI
+id: ymd_dow
+label: 年月日と曜日
+locked: false
+pattern: 'Y/m/d (D)'

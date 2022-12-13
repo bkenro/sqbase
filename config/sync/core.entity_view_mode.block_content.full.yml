@@ -1,0 +1,12 @@
+uuid: 6aaea355-82bb-4cba-9baa-beb92ae840fa
+langcode: ja
+status: false
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: IKjIIgQDGwBqpg2RGHwxFC4l4X2Gb9_4YqjwyvPfrqY
+id: block_content.full
+label: すべて
+targetEntityType: block_content
+cache: true

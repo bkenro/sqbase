@@ -1,0 +1,11 @@
+uuid: 276644a8-e929-42a4-bd67-a3acb7915464
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 5bN1cJ1JqN7EaBdaMIREvTqjsEPYsmO-qHLkP2u-xkA
+id: '404'
+label: '404 ページが見つかりません'
+tags:
+  canonical_url: '[site:url]'
+  shortlink: '[site:url]'

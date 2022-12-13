@@ -1,0 +1,13 @@
+uuid: 2342496e-4186-404a-b279-83199b210598
+langcode: ja
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.category
+_core:
+  default_config_hash: kVQd9pQVGBY_NLbxOUf65zZ4kYUmQlsJ8IinGHGZe0k
+id: taxonomy_term.category
+target_entity_type_id: taxonomy_term
+target_bundle: category
+default_langcode: site_default
+language_alterable: false

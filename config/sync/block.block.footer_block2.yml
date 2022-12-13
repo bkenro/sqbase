@@ -1,0 +1,28 @@
+uuid: 5db42c45-6ec9-4de8-83fe-e60069368cf3
+langcode: ja
+status: true
+dependencies:
+  module:
+    - block_class
+  theme:
+    - sqw3css
+third_party_settings:
+  block_class:
+    classes: w3-small
+_core:
+  default_config_hash: yMdg-EXNu8nfayOeqoSwg2C949hByEDXUlUq2he6704
+id: footer_block2
+theme: sqw3css
+region: footer_second
+weight: 0
+provider: null
+plugin: 'block_content:a2e01f8f-52cc-4841-b70e-f689fd602712'
+settings:
+  id: 'block_content:a2e01f8f-52cc-4841-b70e-f689fd602712'
+  label: フッター三段組の中央
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

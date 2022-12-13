@@ -3,11 +3,9 @@ type: profile
 description: 'Synergy Quest basic site install profile.'
 core_version_requirement: ^9
 install:
-  - addtoany
   - admin_toolbar
   - admin_toolbar_tools
   - automated_cron
-  - back_to_top
   - ban
   - big_pipe
   - block
@@ -15,8 +13,6 @@ install:
   - block_content
   - breakpoint
   - ckeditor
-  - codesnippet
-  - coffee
   - colorbox
   - comment
   - config
@@ -38,10 +34,6 @@ install:
   - history
   - image
   - imce
-  - insert
-  - insert_colorbox
-  - jquery_ui
-  - jquery_ui_effects
   - language
   - link
   - locale
@@ -57,7 +49,6 @@ install:
   - node
   - options
   - page_cache
-  - panelbutton
   - path
   - path_alias
   - redirect

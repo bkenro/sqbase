@@ -1,0 +1,24 @@
+uuid: 09cd72f2-9c51-458c-87dd-c9560002adc9
+langcode: ja
+status: true
+dependencies:
+  module:
+    - block_class
+  theme:
+    - drupal8_w3css_theme
+_core:
+  default_config_hash: eG4HHljtyEVWXTzqAWauWgU2HWJkZmxC7LVVm25D_6Y
+id: drupal8_w3css_theme_local_tasks
+theme: drupal8_w3css_theme
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

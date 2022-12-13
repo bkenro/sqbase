@@ -1,0 +1,10 @@
+uuid: 6f7ab3f2-052f-4594-8004-2df8cb62eacd
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: lFPzS09fKBz4RrLb0lZMO9LRqeEgrIwIlpsckXTXOts
+id: short
+label: デフォルトの短い日付
+locked: false
+pattern: 'Y/m/d - H:i'

@@ -1,0 +1,5 @@
+_core:
+  default_config_hash: 4PzWyRQfr4IxACnsS3mI2YE6QHNY3Fgt1ZawrbmWL3w
+langcode: ja
+fallback_format: plain_text
+always_show_fallback_choice: false

@@ -6,9 +6,6 @@ dependencies:
     - help
   theme:
     - sqw3css
-third_party_settings:
-  block_class:
-    classes: null
 id: sqw3css_help
 theme: sqw3css
 region: content

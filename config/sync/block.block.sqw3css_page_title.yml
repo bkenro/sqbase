@@ -1,0 +1,22 @@
+uuid: fcd432a1-3160-46dd-8ed5-cc9e09717cb2
+langcode: ja
+status: true
+dependencies:
+  module:
+    - block_class
+  theme:
+    - sqw3css
+_core:
+  default_config_hash: 2V2XFxjBsckB2nyOR6gOv9F0bvpOjJYPOdMsGu8bHPQ
+id: sqw3css_page_title
+theme: sqw3css
+region: page_title
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: ページのタイトル
+  label_display: '0'
+  provider: core
+visibility: {  }

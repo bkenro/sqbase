@@ -1,0 +1,10 @@
+uuid: 6a86df18-3e75-46fd-9e5a-e1d7d3e6e760
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: CgZGwVJ3j5sIBGkLaMKAWfjuuE_SQ8XAvETx1GgFmjw
+id: basic
+label: 基本ブロック
+revision: 0
+description: 基本ブロックには、タイトル、本文、および挿入用の画像フィールドが用意されています。

@@ -1,0 +1,11 @@
+uuid: a582620a-6ba4-4594-918e-84206c23cd7a
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: lIdfBLHm5RDm4LU7QB7GqIKs-Mz70J7nI-W9ZQyKnaU
+id: ja
+label: Japanese
+direction: ltr
+weight: 0
+locked: false

@@ -1,0 +1,30 @@
+uuid: 3c266c8e-2ebe-4a40-b12a-6d6f51ad9b57
+langcode: ja
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - sqw3css
+_core:
+  default_config_hash: rJsxmeQX3p5WBBYdMu7qJqxOflKi-GeD_Mvo6cG99uE
+id: youkoso
+theme: sqw3css
+region: welcome_text
+weight: 0
+provider: null
+plugin: 'block_content:ce5d94d6-6d91-42f0-ac9d-4324c437c7ed'
+settings:
+  id: 'block_content:ce5d94d6-6d91-42f0-ac9d-4324c437c7ed'
+  label: ようこそ
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

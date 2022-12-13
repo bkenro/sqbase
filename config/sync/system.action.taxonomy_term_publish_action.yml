@@ -1,0 +1,13 @@
+uuid: c14fa789-ad20-4b13-a32e-463131988640
+langcode: ja
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: JOrTW2VMfxqAHpNrw8t_N0JCdjCRQQz9DqlPTqPfGkU
+id: taxonomy_term_publish_action
+label: タクソノミータームを掲載
+type: taxonomy_term
+plugin: 'entity:publish_action:taxonomy_term'
+configuration: {  }

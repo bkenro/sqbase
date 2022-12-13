@@ -1,0 +1,19 @@
+uuid: 5f62c926-2346-4bfe-b87c-fcf0a58d8d96
+langcode: ja
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: x9grj6XVSsHZvfUAmC6RgCmMsLuj5XEqFqMgq88Ha7c
+name: 記事
+type: article
+description: ニュースやプレスリリース、ブログのような時系列が重要なコンテンツには<em>記事</em>を使ってください。
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

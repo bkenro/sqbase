@@ -1,0 +1,24 @@
+uuid: 5054d680-ec1d-479c-bd74-a85cc6e6c9a9
+langcode: ja
+status: true
+dependencies:
+  module:
+    - block_class
+  theme:
+    - sqw3css
+_core:
+  default_config_hash: B7gf2xORBZe44X0ZeHzkjOXnwz-q1eXGyDrCUAcWJRg
+id: sqw3css_local_tasks
+theme: sqw3css
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: タブ
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

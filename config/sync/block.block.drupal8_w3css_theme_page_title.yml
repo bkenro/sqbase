@@ -1,0 +1,22 @@
+uuid: 586f8075-ada4-4d4a-a291-cc97f6e2898b
+langcode: ja
+status: true
+dependencies:
+  module:
+    - block_class
+  theme:
+    - drupal8_w3css_theme
+_core:
+  default_config_hash: fondot1kQDNKdfU61fmsGxapgmA3Hf1sOkUlmhzaZic
+id: drupal8_w3css_theme_page_title
+theme: drupal8_w3css_theme
+region: page_title
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

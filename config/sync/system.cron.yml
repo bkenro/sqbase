@@ -1,0 +1,7 @@
+_core:
+  default_config_hash: vg_8TPUNzAtrDog2paedBfv2y8tkMTliiBorl_4VYrQ
+langcode: ja
+threshold:
+  requirements_warning: 172800
+  requirements_error: 1209600
+logging: 1

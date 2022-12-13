@@ -1,0 +1,95 @@
+uuid: 4b82e084-27b1-4deb-9a53-4b71702eec70
+langcode: ja
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+  module:
+    - ckeditor
+_core:
+  default_config_hash: wMiSRYaIDk5Mz9BAizad0q-dNH4QptqlIkMJJdIBs6Q
+format: full_html
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatting
+          items:
+            - Bold
+            - Strike
+            - Italic
+            - Superscript
+            - Subscript
+            - TextColor
+            - BGColor
+            - '-'
+            - RemoveFormat
+        -
+          name: Linking
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Lists
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Media
+          items:
+            - Blockquote
+            - DrupalImage
+            - Table
+            - HorizontalRule
+            - CodeSnippet
+        -
+          name: 'Block Formatting'
+          items:
+            - Format
+        -
+          name: Tools
+          items:
+            - ShowBlocks
+            - Source
+  plugins:
+    codesnippet:
+      highlight_style: arta
+      highlight_languages:
+        apache: apache
+        bash: bash
+        cs: cs
+        cpp: cpp
+        css: css
+        coffeescript: coffeescript
+        d: d
+        diff: diff
+        html: html
+        http: http
+        ini: ini
+        json: json
+        java: java
+        javascript: javascript
+        makefile: makefile
+        markdown: markdown
+        nginx: nginx
+        objectivec: objectivec
+        php: php
+        perl: perl
+        python: python
+        ruby: ruby
+        rust: rust
+        sql: sql
+        vbscript: vbscript
+        xhtml: xhtml
+        xml: xml
+        yaml: yaml
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

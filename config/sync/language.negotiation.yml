@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: 9tW0noEixs-43cy81vJ-JuAZ5TqzeR3TIfjnGQdXNpQ
+langcode: ja
+session:
+  parameter: language
+url:
+  source: path_prefix
+  prefixes:
+    ja: ''
+  domains:
+    ja: ''
+selected_langcode: site_default

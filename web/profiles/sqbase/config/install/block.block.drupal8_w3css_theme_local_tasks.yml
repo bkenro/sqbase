@@ -5,9 +5,6 @@ dependencies:
     - block_class
   theme:
     - drupal8_w3css_theme
-third_party_settings:
-  block_class:
-    classes: null
 id: drupal8_w3css_theme_local_tasks
 theme: drupal8_w3css_theme
 region: content

@@ -1,0 +1,25 @@
+uuid: 5198e753-5811-4a3f-bea0-9e4a12f6ac9a
+langcode: ja
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+    - field.storage.block_content.body
+  module:
+    - text
+_core:
+  default_config_hash: DQv5D9dXdfwShrp-_tUVGt9QpKQUyNiaxYbTiehNsZ4
+id: block_content.basic.body
+field_name: body
+entity_type: block_content
+bundle: basic
+label: 本文
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

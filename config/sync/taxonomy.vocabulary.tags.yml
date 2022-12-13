@@ -1,0 +1,10 @@
+uuid: ab3b6c6d-8fa7-4a67-849c-a395f2a76ff5
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 064r5kBQ37E73JW_AtdDarVCjN8P-7Z9wXgRmkpS_WY
+name: タグ
+vid: tags
+description: 記事をトピックなどに合わせてグループ化するにはタグを使用してください
+weight: 0

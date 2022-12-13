@@ -82,8 +82,6 @@ settings:
         xhtml: xhtml
         xml: xml
         yaml: yaml
-    colorbutton:
-      colors: ''
 image_upload:
   status: false
   scheme: public

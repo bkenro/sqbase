@@ -1,0 +1,22 @@
+uuid: 78257de0-a341-47b8-837f-1935a81f69c4
+langcode: ja
+status: true
+dependencies:
+  module:
+    - block_class
+  theme:
+    - drupal8_w3css_theme
+_core:
+  default_config_hash: 6EzL6HjSEpzUHFhw22z7QV2tjJLWbYV5LlsZEhHyy9U
+id: drupal8_w3css_theme_local_actions
+theme: drupal8_w3css_theme
+region: content
+weight: 1
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

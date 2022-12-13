@@ -1,0 +1,12 @@
+uuid: e85a6ab8-0965-4231-bc55-4c9122ff57f2
+langcode: ja
+status: true
+dependencies:
+  module:
+    - menu_link_content
+_core:
+  default_config_hash: r4rdrdj7zXpRhI3zmkH5Wwtt5qpV1cOSSsu2CTEUIGU
+id: menu_link_content.token
+label: Token
+targetEntityType: menu_link_content
+cache: true
