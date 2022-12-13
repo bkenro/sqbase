@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "254e080e8e6fa03c4c7b813adb218781",
+    "content-hash": "ed30f0de138bffa7c7b3e238c7253714",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -177,24 +177,6 @@
                 "source": "https://github.com/Chi-teck/drupal-code-generator/tree/2.6.1"
             },
             "time": "2022-09-15T09:13:57+00:00"
-        },
-        {
-            "name": "ckeditor-plugin/colorbutton",
-            "version": "4.19.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://download.ckeditor.com/colorbutton/releases/colorbutton_4.19.0.zip"
-            },
-            "type": "drupal-library"
-        },
-        {
-            "name": "ckeditor-plugin/panelbutton",
-            "version": "4.19.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://download.ckeditor.com/panelbutton/releases/panelbutton_4.19.0.zip"
-            },
-            "type": "drupal-library"
         },
         {
             "name": "composer/installers",
