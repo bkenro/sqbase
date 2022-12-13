@@ -59,7 +59,6 @@
         "drupal/ctools": "^3.13",
         "drupal/d8w3css": "^2.0",
         "drupal/default_content": "^2.0@alpha",
-        "drupal/easy_breadcrumb": "^2.0",
         "drupal/editor_advanced_link": "^2.1",
         "drupal/field_group": "^3.4",
         "drupal/imce": "^3.0",
