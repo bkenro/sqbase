@@ -52,7 +52,7 @@
         "drupal/backup_migrate": "^5.0",
         "drupal/block_class": "^2.0",
         "drupal/ckeditor": "^1.0",
-        "drupal/colorbox": "^1.10",
+        "drupal/colorbox": "^2.0",
         "drupal/core-composer-scaffold": "9.5.0-rc2@RC",
         "drupal/core-project-message": "9.5.0-rc2@RC",
         "drupal/core-recommended": "9.5.0-rc2@RC",
