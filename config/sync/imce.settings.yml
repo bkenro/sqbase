@@ -1,9 +1,0 @@
-_core:
-  default_config_hash: HNgMDNfBOP5WUU5C7ZqGxMaJZdyIhkiaWDXgEgOgds8
-langcode: ja
-abs_urls: false
-admin_theme: false
-roles_profiles:
-  administrator:
-    public: admin
-    private: admin

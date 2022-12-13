@@ -12,7 +12,7 @@ install:
   - block_class
   - block_content
   - breakpoint
-  - ckeditor
+  - ckeditor5
   - colorbox
   - comment
   - config
