@@ -23,7 +23,6 @@ install:
   - dblog
   - default_content
   - dynamic_page_cache
-  - easy_breadcrumb
   - editor
   - editor_advanced_link
   - field
