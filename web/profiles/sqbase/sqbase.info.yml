@@ -1,7 +1,7 @@
 name: SQbase
 type: profile
 description: 'Synergy Quest basic site install profile.'
-core_version_requirement: ^9
+core_version_requirement: ^10
 install:
   - admin_toolbar
   - admin_toolbar_tools
