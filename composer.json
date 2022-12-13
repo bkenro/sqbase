@@ -86,9 +86,6 @@
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
             "oomphinc/composer-installers-extender": true
-        },
-        "platform": {
-            "php": "8.0"
         }
     },
     "extra": {
