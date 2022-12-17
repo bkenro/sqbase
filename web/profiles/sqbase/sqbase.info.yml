@@ -61,7 +61,6 @@ install:
   - panelbutton
   - path
   - path_alias
-  - rdf
   - redirect
   - schema_metatag
   - shortcut
@@ -80,8 +79,7 @@ install:
   - xmlsitemap
   - views
 themes:
-  - bartik
-  - seven
+  - claro
   - drupal8_w3css_theme
   - sqw3css
 

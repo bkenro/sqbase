@@ -9,9 +9,6 @@ dependencies:
     - views
   theme:
     - sqw3css
-third_party_settings:
-  block_class:
-    classes: null
 id: views_block__top_containers_block_1
 theme: sqw3css
 region: top_first
