@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66451a53a9ca7b3ae3bb728d3b3b684e",
+    "content-hash": "ceb43b00f55b114c5d6a9d8cd45bdbb0",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2561,17 +2561,17 @@
         },
         {
             "name": "drupal/imce",
-            "version": "3.0.4",
+            "version": "3.0.5",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/imce.git",
-                "reference": "3.0.4"
+                "reference": "3.0.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/imce-3.0.4.zip",
-                "reference": "3.0.4",
-                "shasum": "816e6ac5381aeee8c0c63ca2e16f7e3748957d0f"
+                "url": "https://ftp.drupal.org/files/projects/imce-3.0.5.zip",
+                "reference": "3.0.5",
+                "shasum": "b545e038deaa4d02bb6cc19ae75b9c73b2d85056"
             },
             "require": {
                 "drupal/core": "^9.3 || ^10"
@@ -2579,8 +2579,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "3.0.4",
-                    "datestamp": "1669807455",
+                    "version": "3.0.5",
+                    "datestamp": "1671214995",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
