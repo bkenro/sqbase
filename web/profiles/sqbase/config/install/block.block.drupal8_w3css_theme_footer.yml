@@ -8,9 +8,6 @@ dependencies:
     - system
   theme:
     - drupal8_w3css_theme
-third_party_settings:
-  block_class:
-    classes: null
 id: drupal8_w3css_theme_footer
 theme: drupal8_w3css_theme
 region: footer_menu

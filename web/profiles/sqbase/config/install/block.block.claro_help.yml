@@ -2,15 +2,11 @@ langcode: ja
 status: true
 dependencies:
   module:
-    - block_class
     - help
   theme:
-    - seven
-third_party_settings:
-  block_class:
-    classes: null
-id: seven_help
-theme: seven
+    - claro
+id: claro_help
+theme: claro
 region: help
 weight: 0
 provider: null

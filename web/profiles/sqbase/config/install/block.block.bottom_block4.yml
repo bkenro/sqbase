@@ -6,9 +6,6 @@ dependencies:
     - system
   theme:
     - sqw3css
-third_party_settings:
-  block_class:
-    classes: null
 id: bottom_block4
 theme: sqw3css
 region: bottom_forth
