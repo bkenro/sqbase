@@ -13,6 +13,7 @@ install:
   - block_content
   - breakpoint
   - ckeditor5
+  - coffee
   - colorbox
   - comment
   - config
