@@ -22,6 +22,7 @@
         "bower-asset/colorbox": "^1.6",
         "bower-asset/dompurify": "^2.3",
         "composer/installers": "^1.9",
+        "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.3",
         "drupal/backup_migrate": "^5.0",
         "drupal/block_class": "^2.0",
@@ -59,8 +60,10 @@
             "composer/installers": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
-            "oomphinc/composer-installers-extender": true
-        }
+            "oomphinc/composer-installers-extender": true,
+            "cweagans/composer-patches": true
+        },
+        "secure-http": false
     },
     "extra": {
         "drupal-scaffold": {
@@ -123,6 +126,11 @@
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
             ]
+        },
+        "patches": {
+          "drupal/core": {
+            "Add Drupal recipe feature": "https://git.drupalcode.org/project/distributions_recipes/-/raw/patch/recipe.patch"
+          }
         }
     }
 }
