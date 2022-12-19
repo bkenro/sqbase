@@ -1,0 +1,13 @@
+name: 'My Event'
+description: 'イベントのコンテンツタイプを追加する Drupal recipe サンプル'
+type: 'Content type'
+
+install:
+  - datetime_range
+  - field
+  - field_group
+  - field_ui
+  - menu_ui
+  - node
+  - path
+  - text

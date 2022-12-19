@@ -1,0 +1,19 @@
+uuid: de4403f8-186c-42fc-85fb-cb1b8026cab6
+langcode: ja
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: YtigvTr5OOR3giRA7iLQ0IAzkWNIID5wtuvaNIHV9mM
+name: イベント
+type: event
+description: イベント情報のコンテンツを作成するためのコンテンツタイプです。
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

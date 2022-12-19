@@ -1,0 +1,13 @@
+uuid: 7cec0fac-5b9e-4e6b-99ce-de3400de5b8f
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.event
+_core:
+  default_config_hash: PzlJfSYfEO57jDeO1SLiBAy020SnB9Yj092HA-KXpWw
+id: node.event
+target_entity_type_id: node
+target_bundle: event
+default_langcode: site_default
+language_alterable: false

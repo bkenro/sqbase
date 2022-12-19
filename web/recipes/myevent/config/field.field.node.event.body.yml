@@ -1,0 +1,25 @@
+uuid: 6a531de5-245a-491c-8504-09d9e4e1bbaf
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.event
+  module:
+    - text
+_core:
+  default_config_hash: v7aBtOlz1SO67e1e2lFeW5iJU4VnQRm2yD93B8Fd_vo
+id: node.event.body
+field_name: body
+entity_type: node
+bundle: event
+label: 内容
+description: イベントの内容です。
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

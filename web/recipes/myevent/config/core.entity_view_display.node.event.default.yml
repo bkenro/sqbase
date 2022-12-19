@@ -1,0 +1,86 @@
+uuid: e78e6c73-41b3-4593-8542-552fcd2e85f4
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.field.node.event.body
+    - field.field.node.event.field_period
+    - node.type.event
+  module:
+    - datetime_range
+    - field_group
+    - text
+    - user
+third_party_settings:
+  field_group:
+    group_summary:
+      children:
+        - body
+      label: 概要
+      parent_name: ''
+      region: content
+      weight: 0
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        description: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_detail:
+      children:
+        - field_period
+      label: 詳細
+      parent_name: ''
+      region: content
+      weight: 1
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        description: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+_core:
+  default_config_hash: rLj44lIgmASxJ9CYkQcV9OhKrj6oXDGilHMsDXzQ9IE
+id: node.event.default
+targetEntityType: node
+bundle: event
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_period:
+    type: daterange_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+      separator: '-'
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  langcode: true

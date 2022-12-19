@@ -1,0 +1,23 @@
+uuid: e50a897f-0107-4fa0-9290-8c7443fd4f35
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_period
+    - node.type.event
+  module:
+    - datetime_range
+_core:
+  default_config_hash: FxguDB3F_m8LjKZ24aDU51rOkn85XfElprlwrqAKf2g
+id: node.event.field_period
+field_name: field_period
+entity_type: node
+bundle: event
+label: 開催期間
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange
