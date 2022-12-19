@@ -11,3 +11,12 @@ install:
   - node
   - path
   - text
+
+config:
+  actions:
+    user.role.editor:
+      ensure_exists:
+        label: 'イベント編集者'
+      grantPermissions:
+        - 'delete any event content'
+        - 'edit any event content'
