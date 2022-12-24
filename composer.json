@@ -45,6 +45,7 @@
         "drupal/redirect": "^1.7",
         "drupal/schema_metatag": "^2.4",
         "drupal/token": "^1.10",
+        "drupal/webform": "6.2.x-dev@dev",
         "drupal/webprofiler": "^10.0@RC",
         "drupal/xmlsitemap": "^1.2",
         "drush/drush": "^11.0",
