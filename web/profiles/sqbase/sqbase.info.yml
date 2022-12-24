@@ -6,6 +6,7 @@ install:
   - admin_toolbar
   - admin_toolbar_tools
   - automated_cron
+  - back_to_top
   - ban
   - big_pipe
   - block
