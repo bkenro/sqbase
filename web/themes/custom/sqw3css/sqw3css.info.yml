@@ -25,7 +25,7 @@ regions:
   bottom_first: 'Bottom First Container'
   bottom_second: 'Bottom Second Container'
   bottom_third: 'Bottom Third Container'
-  bottom_forth: 'Bottom Forth Container'
+  bottom_forth: 'Bottom Fourth Container'
   footer_first: 'Footer First Container'
   footer_second: 'Footer Second Container'
   footer_third: 'Footer Third Container'
