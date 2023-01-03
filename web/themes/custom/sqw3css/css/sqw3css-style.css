@@ -37,3 +37,7 @@ a:hover>img.w3-image {
 .submenu-sidebar-block h2:first-child {
   margin-top: 0;
 }
+
+.view .pager {
+  clear: both;
+}
