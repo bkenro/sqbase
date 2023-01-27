@@ -48,7 +48,7 @@
         "ckeditor-plugin/colorbutton": "^4.19",
         "ckeditor-plugin/panelbutton": "^4.19",
         "composer/installers": "^1.9",
-        "drupal/addtoany": "^1.16",
+        "drupal/addtoany": "^2.0",
         "drupal/admin_toolbar": "^3.3",
         "drupal/back_to_top": "^2.0",
         "drupal/backup_migrate": "^5.0",
