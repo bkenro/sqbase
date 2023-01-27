@@ -42,7 +42,6 @@ install:
   - insert
   - insert_colorbox
   - jquery_ui
-  - jquery_ui_effects
   - language
   - link
   - locale
