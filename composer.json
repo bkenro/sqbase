@@ -71,7 +71,6 @@
         "drupal/google_tag": "^1.5",
         "drupal/imce": "^3.0",
         "drupal/insert": "^2.0@beta",
-        "drupal/jquery_ui": "^1.6",
         "drupal/metatag": "^1.19",
         "drupal/pathauto": "^1.10",
         "drupal/redirect": "^1.7",
