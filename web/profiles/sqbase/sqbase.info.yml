@@ -32,6 +32,7 @@ install:
   - editor
   - editor_advanced_link
   - field
+  - field_formatter_class
   - field_ui
   - file
   - filter
@@ -41,7 +42,6 @@ install:
   - imce
   - insert
   - insert_colorbox
-  - jquery_ui
   - language
   - link
   - locale
