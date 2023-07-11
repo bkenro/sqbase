@@ -52,7 +52,7 @@
         "drupal/webform": "^6.1",
         "drupal/webprofiler": "^10.0",
         "drupal/xmlsitemap": "^1.2",
-        "drush/drush": "^12",
+        "drush/drush": "^11",
         "oomphinc/composer-installers-extender": "^2.0"
     },
     "conflict": {
