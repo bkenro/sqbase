@@ -2,10 +2,10 @@ langcode: ja
 status: true
 dependencies:
   config:
-    - filter.format.basic_html
+    - filter.format.restricted_html
   module:
     - ckeditor5
-format: basic_html
+format: restricted_html
 editor: ckeditor5
 settings:
   toolbar:
@@ -19,7 +19,6 @@ settings:
       - code
       - bulletedList
       - numberedList
-      - imce_image
       - sourceEditing
   plugins:
     ckeditor5_heading:
@@ -38,12 +37,10 @@ settings:
         - '<dl>'
         - '<dt>'
         - '<dd>'
-        - '<span>'
         - '<a hreflang>'
         - '<blockquote cite>'
         - '<ul type>'
         - '<ol type>'
-        - '<img data-align data-caption>'
         - '<h2 id>'
         - '<h3 id>'
         - '<h4 id>'

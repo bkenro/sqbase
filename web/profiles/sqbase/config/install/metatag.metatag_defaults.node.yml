@@ -17,5 +17,4 @@ tags:
   twitter_cards_description: '[node:summary]'
   twitter_cards_image: '[node:field_banner:entity:thumbnail:twitter_card_large]'
   twitter_cards_image_alt: '[node:field_banner:entity:name]'
-  twitter_cards_page_url: '[node:url]'
   twitter_cards_type: summary_large_image

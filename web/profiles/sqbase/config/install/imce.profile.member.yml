@@ -7,8 +7,8 @@ description: サイトのメンバー用の設定
 conf:
   usertab: false
   extensions: 'jpg png gif'
-  maxsize: !!float 2
-  quota: !!float 50
+  maxsize: 2.0
+  quota: 50.0
   maxwidth: 1024
   maxheight: 1024
   replace: 0

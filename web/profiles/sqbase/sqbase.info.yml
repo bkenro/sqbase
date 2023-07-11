@@ -1,7 +1,7 @@
 name: SQbase
 type: profile
 description: 'Synergy Quest basic site install profile.'
-core_version_requirement: ^9
+core_version_requirement: ^10
 install:
   - addtoany
   - admin_toolbar
@@ -14,11 +14,9 @@ install:
   - block_class
   - block_content
   - breakpoint
-  - ckeditor
-  - codesnippet
+  - ckeditor5
   - coffee
   - colorbox
-  - colorbutton
   - comment
   - config
   - contact
@@ -40,8 +38,6 @@ install:
   - history
   - image
   - imce
-  - insert
-  - insert_colorbox
   - language
   - link
   - locale
@@ -52,18 +48,16 @@ install:
   - metatag
   - metatag_open_graph
   - metatag_twitter_cards
-  - metatag_views
   - mysql
   - node
   - options
   - page_cache
-  - panelbutton
   - path
   - path_alias
+  - phpass
   - redirect
   - schema_metatag
   - shortcut
-  - squtil
   - system
   - taxonomy
   - text
