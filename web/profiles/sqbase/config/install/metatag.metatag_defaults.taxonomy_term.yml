@@ -12,5 +12,4 @@ tags:
   og_type: article
   og_url: '[term:url]'
   title: '[term:name] | [site:name]'
-  twitter_cards_page_url: '[term:url]'
   twitter_cards_title: '[term:name]'
