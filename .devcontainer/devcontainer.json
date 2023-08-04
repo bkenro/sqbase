@@ -18,5 +18,5 @@
       "label": "web https"
     }
   },
-  "postCreateCommand": "bash -c 'ddev config global --omit-containers=ddev-router && ddev config --auto && ddev debug download-images'"
+  "postCreateCommand": "bash -c 'ddev config global --omit-containers=ddev-router && ddev config --docroot=web --project-type=drupal10 && ddev debug download-images'"
 }
