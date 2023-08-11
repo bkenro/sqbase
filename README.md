@@ -130,7 +130,7 @@ Drupal のサイト構築トレーニングやサンプルサイトの初期構�
 
 ### GitHub Codespaces の場合
 
-このリポジトリには、DDEV で Drupal 10 プロジェクトを実行するための [Dev Coontainer](https://code.visualstudio.com/docs/devcontainers/containers) の設定が含まれています。GitHub アカウントをお持ちであれば、GitHub Codespaces で SQbase のサイトを立ち上げることができます。
+このリポジトリには、DDEV で Drupal 10 プロジェクトを実行するための [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) の設定が含まれています。GitHub アカウントをお持ちであれば、GitHub Codespaces で SQbase のサイトを立ち上げることができます。
 
 1. GitHub の検索窓で  `sqbase` と入力して検索し、SQbase のリポジトリを表示する。
 2. 「<> Code」をクリックし、「Codespaces」タブの「Create codespace on main」をクリックする。"Setting up your codespaces" というメッセージが表示され、Dev Container 環境のビルドが開始される。しばらく待つと、ターミナルで環境構築の前処理として DDEV の設定処理が実行される。
