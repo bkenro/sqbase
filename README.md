@@ -130,7 +130,7 @@ Drupal のサイト構築トレーニングやサンプルサイトの初期構�
 
 ### GitHub Codespaces の場合
 
-このリポジトリには、DDEV で Drupal 10 プロジェクトを実行するための [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) の設定が含まれています。GitHub アカウントをお持ちであれば、GitHub Codespaces で SQbase のサイトを立ち上げることができます。
+このリポジトリには、[DDEV](https://ddev.readthedocs.io/) で Drupal 10 プロジェクトを実行するための [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) の設定が含まれています。GitHub アカウントをお持ちであれば、GitHub Codespaces で SQbase のサイトを立ち上げることができます。
 
 1. GitHub の検索窓で  `sqbase` と入力して検索し、SQbase のリポジトリを表示する。
 2. 「<> Code」をクリックし、「Codespaces」タブの「Create codespace on main」をクリックする。"Setting up your codespaces" というメッセージが表示され、Dev Container 環境のビルドが開始される。しばらく待つと、ターミナルで環境構築の前処理として DDEV の設定処理が実行される。
@@ -142,9 +142,9 @@ Drupal のサイト構築トレーニングやサンプルサイトの初期構�
 
 1. 「ポート」タブで「web https」の「ローカルアドレス」列にある「ローカルアドレスのコピー」（上方向矢印アイコン）をクリックして、ポートフォワードされたサイトの URL をクリップボードにコピーする。
 2. Codespaces のエクスプローラーで、drush/sites/self.site/yml ファイルを開き、`root` サブキーを `/var/www/html` に、uri サブキーを 1. でコピーしたサイトの URL に、それぞれ変更する。
-3. ターミナルで `ddev drush @local site:install sqbase -y` と入力して Enter キーを押す。SQbaase サイトのインストールが開始される。
+3. ターミナルで `ddev drush @local site:install sqbase -y` と入力して Enter キーを押す。SQbase サイトのインストールが開始される。
 4. 終了するとプロンプトが復帰する。1. でコピーした URL をブラウザで開くと SQbase のサイトが表示される。
 
 GitHub のアカウントとインターネット接続環境さえあれば、どなたでも Drupal サイト構築の実習作業を開始できます。
 
-なお、実習が終わったら [Your codespaces](https://github.com/codespaces) ページで「Owned by 〜」の一覧にある Codespace を停止（Stop）するか、もう使わない場合は削除しておきましょう。Codespace を無償で使える範囲には限りがあるので、注意してください。
+なお、実習が終わったら [Your codespaces](https://github.com/codespaces) ページで「Owned by 〜」の一覧にある Codespace を停止（Stop）するか、もう使わない場合は削除しておきましょう。Codespaces を無償で使える範囲には限りがあるので、注意してください。
