@@ -4,6 +4,8 @@ SQbase（エス・キュー・ベース、愛称「すくべー」）は、シ�
 
 ## 使い方
 
+### 仮想マシンの場合
+
 まず、Drupal 9 が動作する LAMP スタックと Composer がインストールされた環境を用意します。
 Vagrant と VirtualBox をお使いの場合は、[ffdsm](https://github.com/bkenro/ffdsm) が利用できます。
 以下、ffdsm を例にインストール例を示します。
@@ -125,3 +127,24 @@ Web サーバーの設定でプロジェクトの web サブディレクトリ�
 - [https://sqbase.white-root.com/](https://sqbase.white-root.com/)
 
 Drupal のサイト構築トレーニングやサンプルサイトの初期構成など、どうぞご自由にお使いください。
+
+### GitHub Codespaces の場合
+
+このリポジトリには、[DDEV](https://ddev.readthedocs.io/) で Drupal 10 プロジェクトを実行するための [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) の設定が含まれています。GitHub アカウントをお持ちであれば、GitHub Codespaces で SQbase のサイトを立ち上げることができます。
+
+1. GitHub の検索窓で  `sqbase` と入力して検索し、[SQbase のリポジトリ](https://github.com/bkenro/sqbase)を表示する。
+2. 「<> Code」をクリックし、「Codespaces」タブの「Create codespace on main」をクリックする。"Setting up your codespaces" というメッセージが表示され、Dev Container 環境のビルドが開始される。しばらく待つと、ターミナルで環境構築の前処理として DDEV の設定処理が実行される。
+4. ターミナルでプロンプトが表示されたら、`ddev composer install` と入力して実行する。コンテナが起動し、ポートのフォワード設定が行われる。
+5. 終了後「ポート」タブで、「web https」行の「ローカルアドレス」列で「ブラウザーで開く」（地球アイコン）をクリックすると、コンテナ上のウェブサーバーに接続され、Drupal のインストール画面が表示される。あとは通常どおり Drupal サイトをインストールできる。
+
+なお、SQbase には、Drush によるインストールを簡潔に実行するためのサイトエイリアスのテンプレートが含まれているので、このファイルを Codespaces の Dev Container 環境に合わせて調整して CLI から Drupal サイトをインストールすることもできます。
+
+1. 「ポート」タブで「web https」の「ローカルアドレス」列にある「ローカルアドレスのコピー」（上方向矢印アイコン）をクリックして、ポートフォワードされたサイトの URL をクリップボードにコピーする。
+2. Codespaces のエクスプローラーで、drush/sites/self.site/yml ファイルを開き、`root` サブキーを `/var/www/html` に、uri サブキーを 1. でコピーしたサイトの URL に、それぞれ変更する。
+3. さらに、`db-url` サブキー（2か所）の値を `mysql://db:db@db/db` に変更する。
+4. ターミナルで `ddev drush @local site:install sqbase -y` と入力して実行する。SQbase サイトのインストールが開始される。
+5. 終了するとプロンプトが復帰する。1. でコピーした URL をブラウザで開くと SQbase のサイトが表示される。
+
+GitHub のアカウントとインターネット接続環境があれば Drupal サイト構築の実習作業を開始できます。
+
+なお、実習が終わったら [Your codespaces](https://github.com/codespaces) ページで「Owned by 〜」の一覧にある Codespace を停止（Stop Codespace）するか、もう使わない場合は削除（Delete）しておきましょう。Codespaces を無償で使える時間には限りがあるので、注意してください。

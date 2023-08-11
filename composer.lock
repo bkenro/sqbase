@@ -2878,7 +2878,7 @@
                     "homepage": "https://www.drupal.org/user/3094661"
                 },
                 {
-                    "name": "RenatoG",
+                    "name": "renatog",
                     "homepage": "https://www.drupal.org/user/3326031"
                 },
                 {
@@ -3196,17 +3196,17 @@
         },
         {
             "name": "drupal/imce",
-            "version": "3.0.8",
+            "version": "3.0.9",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/imce.git",
-                "reference": "3.0.8"
+                "reference": "3.0.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/imce-3.0.8.zip",
-                "reference": "3.0.8",
-                "shasum": "0abd0d0c7f2e01b2cddd9adde014f82e72453285"
+                "url": "https://ftp.drupal.org/files/projects/imce-3.0.9.zip",
+                "reference": "3.0.9",
+                "shasum": "08961c8293d862fcb971518dbfcfffc78f546548"
             },
             "require": {
                 "drupal/core": "^9.3 || ^10"
@@ -3217,8 +3217,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "3.0.8",
-                    "datestamp": "1683975052",
+                    "version": "3.0.9",
+                    "datestamp": "1691188107",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3280,7 +3280,7 @@
             "extra": {
                 "drupal": {
                     "version": "2.0.0",
-                    "datestamp": "1687857487",
+                    "datestamp": "1691239950",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3480,6 +3480,10 @@
                 {
                     "name": "Dave Reid",
                     "homepage": "https://www.drupal.org/user/53892"
+                },
+                {
+                    "name": "Kristen Pol",
+                    "homepage": "https://www.drupal.org/user/8389"
                 },
                 {
                     "name": "pifagor",
@@ -3853,17 +3857,17 @@
         },
         {
             "name": "drupal/xmlsitemap",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/xmlsitemap.git",
-                "reference": "8.x-1.4"
+                "reference": "8.x-1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/xmlsitemap-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "cd010ebdfbdb5b4d51d9fa96bbebd3b310021a1f"
+                "url": "https://ftp.drupal.org/files/projects/xmlsitemap-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "ee53bf4d1c23ab41548021d9948925ecf76719d3"
             },
             "require": {
                 "drupal/core": "^9.3 || ^10",
@@ -3880,8 +3884,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1663795747",
+                    "version": "8.x-1.5",
+                    "datestamp": "1691341085",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3927,7 +3931,7 @@
                     "homepage": "https://www.drupal.org/user/272316"
                 },
                 {
-                    "name": "RenatoG",
+                    "name": "renatog",
                     "homepage": "https://www.drupal.org/user/3326031"
                 },
                 {
@@ -4801,21 +4805,21 @@
         },
         {
             "name": "nette/php-generator",
-            "version": "v4.0.7",
+            "version": "v4.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/php-generator.git",
-                "reference": "de1843fbb692125e307937c85d43937d0dc0c1d4"
+                "reference": "d9157df8463b198dcbcd9f979fb09a9367c7fe99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/php-generator/zipball/de1843fbb692125e307937c85d43937d0dc0c1d4",
-                "reference": "de1843fbb692125e307937c85d43937d0dc0c1d4",
+                "url": "https://api.github.com/repos/nette/php-generator/zipball/d9157df8463b198dcbcd9f979fb09a9367c7fe99",
+                "reference": "d9157df8463b198dcbcd9f979fb09a9367c7fe99",
                 "shasum": ""
             },
             "require": {
                 "nette/utils": "^3.2.9 || ^4.0",
-                "php": ">=8.0 <8.3"
+                "php": ">=8.0 <8.4"
             },
             "require-dev": {
                 "jetbrains/phpstorm-attributes": "dev-master",
@@ -4864,26 +4868,26 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/php-generator/issues",
-                "source": "https://github.com/nette/php-generator/tree/v4.0.7"
+                "source": "https://github.com/nette/php-generator/tree/v4.0.8"
             },
-            "time": "2023-04-26T15:09:53+00:00"
+            "time": "2023-07-30T12:05:00+00:00"
         },
         {
             "name": "nette/utils",
-            "version": "v4.0.0",
+            "version": "v4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "cacdbf5a91a657ede665c541eda28941d4b09c1e"
+                "reference": "9124157137da01b1f5a5a22d6486cb975f26db7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/cacdbf5a91a657ede665c541eda28941d4b09c1e",
-                "reference": "cacdbf5a91a657ede665c541eda28941d4b09c1e",
+                "url": "https://api.github.com/repos/nette/utils/zipball/9124157137da01b1f5a5a22d6486cb975f26db7e",
+                "reference": "9124157137da01b1f5a5a22d6486cb975f26db7e",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0 <8.3"
+                "php": ">=8.0 <8.4"
             },
             "conflict": {
                 "nette/finder": "<3",
@@ -4891,7 +4895,7 @@
             },
             "require-dev": {
                 "jetbrains/phpstorm-attributes": "dev-master",
-                "nette/tester": "^2.4",
+                "nette/tester": "^2.5",
                 "phpstan/phpstan": "^1.0",
                 "tracy/tracy": "^2.9"
             },
@@ -4951,9 +4955,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/utils/issues",
-                "source": "https://github.com/nette/utils/tree/v4.0.0"
+                "source": "https://github.com/nette/utils/tree/v4.0.1"
             },
-            "time": "2023-02-02T10:41:53+00:00"
+            "time": "2023-07-30T15:42:21+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -5826,16 +5830,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.11.18",
+            "version": "v0.11.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "4f00ee9e236fa6a48f4560d1300b9c961a70a7ec"
+                "reference": "0fa27040553d1d280a67a4393194df5228afea5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/4f00ee9e236fa6a48f4560d1300b9c961a70a7ec",
-                "reference": "4f00ee9e236fa6a48f4560d1300b9c961a70a7ec",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/0fa27040553d1d280a67a4393194df5228afea5b",
+                "reference": "0fa27040553d1d280a67a4393194df5228afea5b",
                 "shasum": ""
             },
             "require": {
@@ -5896,9 +5900,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.11.18"
+                "source": "https://github.com/bobthecow/psysh/tree/v0.11.20"
             },
-            "time": "2023-05-23T02:31:11+00:00"
+            "time": "2023-07-31T14:32:22+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
