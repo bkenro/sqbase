@@ -343,7 +343,7 @@ display:
         type: default
         options:
           grouping: {  }
-          row_class: 'w3-col l4 m6 s12 w3-border w3-border-black w3-round w3-padding match-height'
+          row_class: 'w3-col l4 m6 s12 w3-border w3-round w3-padding match-height'
           default_row_class: true
       row:
         type: fields
