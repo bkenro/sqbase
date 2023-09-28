@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bff8418921a90ebbef2185f6a0005e5c",
+    "content-hash": "8f9b411da510c02bd60854f61fbce17c",
     "packages": [
         {
             "name": "algolia/places",
@@ -94,6 +94,25 @@
                 "bower-asset/jquery": ">=1.3.2"
             },
             "type": "bower-asset"
+        },
+        {
+            "name": "bower-asset/dompurify",
+            "version": "3.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cure53/DOMPurify.git",
+                "reference": "c96c9df61f1070146c0c13078e85b33d8fed3e51"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cure53/DOMPurify/zipball/c96c9df61f1070146c0c13078e85b33d8fed3e51",
+                "reference": "c96c9df61f1070146c0c13078e85b33d8fed3e51"
+            },
+            "type": "bower-asset",
+            "license": [
+                "MPL-2.0",
+                "Apache-2.0"
+            ]
         },
         {
             "name": "bower-asset/jquery",
