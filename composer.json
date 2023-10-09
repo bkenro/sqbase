@@ -50,7 +50,7 @@
         "drupal/redirect": "^1.9",
         "drupal/schema_metatag": "^3.0",
         "drupal/token": "^1.10",
-        "drupal/webform": "^6.1",
+        "drupal/webform": "^6.2@beta",
         "drupal/webprofiler": "^10.1",
         "drupal/xmlsitemap": "^1.2",
         "drush/drush": "^11",
