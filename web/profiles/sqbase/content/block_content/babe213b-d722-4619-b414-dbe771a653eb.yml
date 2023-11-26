@@ -17,6 +17,22 @@ default:
   revision_translation_affected:
     -
       value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| SQbase'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/about'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: SQbase
   body:
     -
       value: "<h3><a class=\"w3-hover-text-blue\" href=\"https://github.com/bkenro/sqbase\" rel=\"noopener\" target=\"_blank\">SQbase</a></h3>\r\n\r\n<p>inspired by</p>\r\n\r\n<ul>\r\n\t<li><a class=\"w3-hover-text-blue\" href=\"https://drupal-meetup-toyota.connpass.com/\" rel=\"noopener\" target=\"_blank\">Drupal Meetup 豊田</a></li>\r\n</ul>\r\n\r\n<p>brought to you by</p>\r\n\r\n<ul>\r\n\t<li><a class=\"w3-hover-text-blue\" href=\"https://synergyquest.jp/\" target=\"_blank\">シナジークエスト</a></li>\r\n</ul>\r\n"

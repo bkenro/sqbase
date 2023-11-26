@@ -17,8 +17,24 @@ default:
   revision_translation_affected:
     -
       value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| SQbase'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/about'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: SQbase
   body:
     -
-      value: "<h3>オススメ Drupal 書籍</h3>\r\n\r\n<ul>\r\n\t<li><a class=\"w3-hover-text-blue\" href=\"https://www.amazon.co.jp/dp/B0922326NR\" target=\"_blank\" title=\"Drupal 9 Web開発ことはじめ\">Drupal 9 の薄い本</a></li>\r\n\t<li><a class=\"w3-hover-text-blue\" href=\"https://www.amazon.co.jp/dp/B09NBN6934\" target=\"_blank\" title=\"Drupal 9 おいしいレシピ集\">Drupal 9 おいしいレシピ集</a></li>\r\n\t<li><a class=\"w3-hover-text-blue\" href=\"https://www.amazon.co.jp/dp/B0B3MJC59Q\" target=\"_blank\" title=\"Drupal 9 おいしいレシピ集2\">Drupal 9 おいしいレシピ集2</a></li>\r\n\t<li><a class=\"w3-hover-text-blue\" href=\"https://www.amazon.co.jp/dp/B0BDGFDWDR\" target=\"_blank\" title=\"Drupal 9 おいしいレシピ集3\">Drupal 9 おいしいレシピ集3</a></li>\r\n</ul>\r\n"
+      value: '<h3>オススメ Drupal 書籍</h3><ul><li><a class="w3-hover-text-blue" href="https://www.amazon.co.jp/dp/B0922326NR" target="_blank" title="Drupal 9 Web開発ことはじめ">Drupal 9 の薄い本</a></li><li><a class="w3-hover-text-blue" href="https://www.amazon.co.jp/dp/B09NBN6934" target="_blank" title="Drupal 9 おいしいレシピ集">Drupal 9 おいしいレシピ集</a></li><li><a class="w3-hover-text-blue" href="https://www.amazon.co.jp/dp/B0B3MJC59Q" target="_blank" title="Drupal 9 おいしいレシピ集2">Drupal 9 おいしいレシピ集2</a></li><li><a class="w3-hover-text-blue" href="https://www.amazon.co.jp/dp/B0BDGFDWDR" target="_blank" title="Drupal 9 おいしいレシピ集3">Drupal 9 おいしいレシピ集3</a></li><li><a class="w3-hover-text-blue" href="https://www.amazon.co.jp/dp/B0CJXDV1PD" target="_blank" title="酒屋の娘、Webサイト制作します！Drupal 10で小さな商店街がDXに挑戦！">酒屋の娘、Webサイト制作します！</a></li><li><a class="w3-hover-text-blue" href="https://www.amazon.co.jp/dp/B0CN8SMRHY" target="_blank" title="続・酒屋の娘、Webサイト制作します: Drupal 10で多言語サイトに挑戦！">続・酒屋の娘、Webサイト制作します！</a></li></ul>'
       format: full_html
       summary: ''

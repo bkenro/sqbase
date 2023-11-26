@@ -32,6 +32,77 @@ default:
   revision_translation_affected:
     -
       value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'W3.CSS ベース | SQbase'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: "CSS フレームワークの\_W3.CSS に基づくテーマを採用しています。"
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: "CSS フレームワークの\_W3.CSS に基づくテーマを採用しています。"
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/features/w3css'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: SQbase
+    -
+      tag: meta
+      attributes:
+        property: 'og:type'
+        content: article
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'http://default/features/w3css'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'W3.CSS ベース'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: "CSS フレームワークの\_W3.CSS に基づくテーマを採用しています。"
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'http://default/sites/default/files/styles/og_image/public/2022-10/frontend.jpg?itok=lULv0O8x'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary_large_image
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: "CSS フレームワークの\_W3.CSS に基づくテーマを採用しています。"
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:image:alt'
+        content: フロントエンド
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:image'
+        content: 'http://default/sites/default/files/styles/twitter_card_large/public/2022-10/frontend.jpg?itok=_w_FYvRg'
   path:
     -
       alias: /features/w3css

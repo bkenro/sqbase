@@ -29,6 +29,62 @@ default:
   revision_translation_affected:
     -
       value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Drupal でカンタン！ホームページ作成 | SQbase'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'SQbase「すくべー」 SQbase（エス・キュー・ベース、愛称「すくべー」）は、シンプルなサイト構成とサンプル コンテンツを組み込んだ Drupal のインストール プロファイルです。Drupal Meetup 豊田の書籍執筆活動で得られた知見に基づいて作成したものです。Drupal のサイト構築トレーニング等、どうぞご自由にお使いください。'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'SQbase「すくべー」 SQbase（エス・キュー・ベース、愛称「すくべー」）は、シンプルなサイト構成とサンプル コンテンツを組み込んだ Drupal のインストール プロファイルです。Drupal Meetup 豊田の書籍執筆活動で得られた知見に基づいて作成したものです。Drupal のサイト構築トレーニング等、どうぞご自由にお使いください。'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/about'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: SQbase
+    -
+      tag: meta
+      attributes:
+        property: 'og:type'
+        content: article
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'http://default/about'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'Drupal でカンタン！ホームページ作成'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: 'SQbase「すくべー」 SQbase（エス・キュー・ベース、愛称「すくべー」）は、シンプルなサイト構成とサンプル コンテンツを組み込んだ Drupal のインストール プロファイルです。Drupal Meetup 豊田の書籍執筆活動で得られた知見に基づいて作成したものです。Drupal のサイト構築トレーニング等、どうぞご自由にお使いください。'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary_large_image
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: 'SQbase「すくべー」 SQbase（エス・キュー・ベース、愛称「すくべー」）は、シンプルなサイト構成とサンプル コンテンツを組み込んだ Drupal のインストール プロファイルです。Drupal Meetup 豊田の書籍執筆活動で得られた知見に基づいて作成したものです。Drupal のサイト構築トレーニング等、どうぞご自由にお使いください。'
   path:
     -
       alias: /about

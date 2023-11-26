@@ -29,6 +29,62 @@ default:
   revision_translation_affected:
     -
       value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '特徴 | SQbase'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: '３つの観点から、このホームページ構築キットの特徴を紹介しています。 各項目を順にご覧ください。'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: '３つの観点から、このホームページ構築キットの特徴を紹介しています。 各項目を順にご覧ください。'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/features'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: SQbase
+    -
+      tag: meta
+      attributes:
+        property: 'og:type'
+        content: article
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'http://default/features'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 特徴
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: '３つの観点から、このホームページ構築キットの特徴を紹介しています。 各項目を順にご覧ください。'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary_large_image
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: '３つの観点から、このホームページ構築キットの特徴を紹介しています。 各項目を順にご覧ください。'
   path:
     -
       alias: /features
