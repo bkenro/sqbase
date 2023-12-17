@@ -19,6 +19,22 @@ default:
   revision_translation_affected:
     -
       value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| SQbase'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/about'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: SQbase
   body:
     -
       value: "<div class=\"w3-display-container\"><img alt=\"ようこそ\" data-align=\"\" data-entity-type=\"file\" data-entity-uuid=\"insert-image-79c740e5-3a4f-4bad-8b6f-38e3aae348fd\" height=\"800\" src=\"/sites/default/files/2022-10/welcome.jpg\" width=\"1600\" />\r\n<div class=\"w3-display-left w3-padding w3-margin-left w3-xxlarge w3-text-white zenkurenaido w3-hide-small w3-hide-medium\">ＤＸなホームページ<br />\r\n作りませんか？</div>\r\n\r\n<div class=\"w3-display-left w3-padding w3-margin-left w3-xlarge w3-text-white zenkurenaido w3-hide-small w3-hide-large\">ＤＸなホームページ<br />\r\n作りませんか？</div>\r\n\r\n<div class=\"w3-display-left w3-margin-left w3-large w3-text-white zenkurenaido w3-hide-medium w3-hide-large\">ＤＸなホームページ<br />\r\n作りませんか？</div>\r\n</div>\r\n"

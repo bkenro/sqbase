@@ -43,3 +43,19 @@ default:
   revision_translation_affected:
     -
       value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| SQbase'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/about'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: SQbase

@@ -20,6 +20,42 @@ default:
   revision_translation_affected:
     -
       value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'トップ三段中央 | SQbase'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/taxonomy/term/1'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: SQbase
+    -
+      tag: meta
+      attributes:
+        property: 'og:type'
+        content: article
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'http://default/taxonomy/term/1'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: トップ三段中央
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: トップ三段中央
   path:
     -
       alias: ''

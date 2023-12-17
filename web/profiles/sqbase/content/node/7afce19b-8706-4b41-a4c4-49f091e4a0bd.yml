@@ -31,6 +31,77 @@ default:
   revision_translation_affected:
     -
       value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '悪妻論 | SQbase'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 悪妻には一般的な型はない。女房と亭主の個性の相対的なものであるから、わが平野謙の如く（彼は僕らの仲間では大愛妻家という定説だ）先日両手をホータイでまき、日本が木綿不足で困っているなどとは想像もできない物々しいホータイだ。
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 悪妻には一般的な型はない。女房と亭主の個性の相対的なものであるから、わが平野謙の如く（彼は僕らの仲間では大愛妻家という定説だ）先日両手をホータイでまき、日本が木綿不足で困っているなどとは想像もできない物々しいホータイだ。
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/blog/1664796954'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: SQbase
+    -
+      tag: meta
+      attributes:
+        property: 'og:type'
+        content: article
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'http://default/blog/1664796954'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 悪妻論
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: 悪妻には一般的な型はない。女房と亭主の個性の相対的なものであるから、わが平野謙の如く（彼は僕らの仲間では大愛妻家という定説だ）先日両手をホータイでまき、日本が木綿不足で困っているなどとは想像もできない物々しいホータイだ。
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'http://default/sites/default/files/styles/og_image/public/2022-10/couple.jpg?itok=4gH1WX08'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary_large_image
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: 悪妻には一般的な型はない。女房と亭主の個性の相対的なものであるから、わが平野謙の如く（彼は僕らの仲間では大愛妻家という定説だ）先日両手をホータイでまき、日本が木綿不足で困っているなどとは想像もできない物々しいホータイだ。
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:image:alt'
+        content: カップル
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:image'
+        content: 'http://default/sites/default/files/styles/twitter_card_large/public/2022-10/couple.jpg?itok=jbSAUI7i'
   path:
     -
       alias: /blog/1664796954
@@ -45,7 +116,7 @@ default:
     -
       status: 1
       cid: 0
-      last_comment_timestamp: 1667014372
+      last_comment_timestamp: 1700964311
       last_comment_name: ''
       last_comment_uid: 1
       comment_count: 0
