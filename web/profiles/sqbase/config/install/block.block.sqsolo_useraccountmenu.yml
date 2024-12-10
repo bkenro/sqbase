@@ -10,7 +10,7 @@ dependencies:
     - sqsolo
 third_party_settings:
   block_class:
-    classes: w3-container
+    classes: 'w3-container w3-link-blue'
 id: sqsolo_useraccountmenu
 theme: sqsolo
 region: sidebar_second
