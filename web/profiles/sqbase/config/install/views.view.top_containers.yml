@@ -71,7 +71,7 @@ display:
           element_label_class: ''
           element_label_colon: false
           element_wrapper_type: div
-          element_wrapper_class: 'w3-col w3-margin-bottom w3-hover-text-blue'
+          element_wrapper_class: 'w3-col w3-margin-bottom w3-hover-text-blue w3-large'
           element_default_classes: false
           empty: ''
           hide_empty: false
@@ -200,7 +200,7 @@ display:
           element_label_class: ''
           element_label_colon: false
           element_wrapper_type: div
-          element_wrapper_class: 'w3-col m8 w3-padding w3-small w3-text-dark-gray w3-hide-small w3-hide-large'
+          element_wrapper_class: 'w3-col m8 w3-padding w3-text-dark-gray w3-hide-small w3-hide-large'
           element_default_classes: false
           empty: ''
           hide_empty: false
@@ -263,7 +263,7 @@ display:
           element_label_class: ''
           element_label_colon: false
           element_wrapper_type: div
-          element_wrapper_class: 'w3-col w3-margin-top w3-small w3-text-dark-gray w3-hide-medium'
+          element_wrapper_class: 'w3-col w3-margin-top w3-text-dark-gray w3-hide-medium'
           element_default_classes: false
           empty: ''
           hide_empty: false

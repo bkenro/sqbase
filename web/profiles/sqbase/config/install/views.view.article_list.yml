@@ -401,7 +401,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: '<i class="fa fa-calendar-o" aria-hidden="true"></i>&nbsp;{{ created }} '
+            text: '<i class="fa-regular fa-calendar"></i>&nbsp;{{ created }} '
             make_link: false
             path: ''
             absolute: false
@@ -453,6 +453,7 @@ display:
               past_format: '@interval ago'
               granularity: 2
               refresh: 60
+              description: ''
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -568,7 +569,7 @@ display:
           plugin_id: text
           empty: false
           content:
-            value: "<hr>\r\n<div class=\"w3-panel w3-right-align w3-small w3-link-blue\">\r\n<a href=\"/blog\"><i class=\"fa fa-chevron-circle-right\" aria-hidden=\"true\"></i>&nbsp;記事一覧へ</a>\r\n</div>"
+            value: "<hr>\r\n<div class=\"w3-panel w3-right-align w3-link-blue\">\r\n<a href=\"/blog\"><i class=\"fa fa-chevron-circle-right\" aria-hidden=\"true\"></i>&nbsp;記事一覧へ</a>\r\n</div>"
             format: full_html
           tokenize: false
       display_extenders:
@@ -783,7 +784,7 @@ display:
         row: false
         fields: false
         footer: false
-      css_class: 'w3-small w3-link-blue'
+      css_class: w3-link-blue
       display_description: HTMLテーブルの新着一覧ブロック
       footer:
         area:
@@ -796,7 +797,7 @@ display:
           plugin_id: text
           empty: false
           content:
-            value: "<hr>\r\n<div class=\"w3-panel w3-right-align w3-small w3-link-blue\">\r\n<a href=\"/blog\"><i class=\"fa fa-chevron-circle-right\" aria-hidden=\"true\"></i>&nbsp;記事一覧へ</a>\r\n</div>"
+            value: "<hr>\r\n<div class=\"w3-panel w3-right-align w3-link-blue\">\r\n<a href=\"/blog\"><i class=\"fa fa-chevron-circle-right\" aria-hidden=\"true\"></i>&nbsp;記事一覧へ</a>\r\n</div>"
             format: full_html
           tokenize: false
       display_extenders:
@@ -898,7 +899,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: '<i class="fa fa-calendar-o" aria-hidden="true"></i>&nbsp;{{ created }} '
+            text: '<i class="fa-regular fa-calendar"></i>&nbsp;{{ created }} '
             make_link: false
             path: ''
             absolute: false
@@ -950,6 +951,7 @@ display:
               past_format: '@interval ago'
               granularity: 2
               refresh: 60
+              description: ''
           group_column: value
           group_columns: {  }
           group_rows: true

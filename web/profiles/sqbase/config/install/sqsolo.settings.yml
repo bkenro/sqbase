@@ -56,7 +56,7 @@ site_inline_items_on: 0
 site_reading_mode_content_type: {  }
 site_load_w3css_on: 1
 site_font_google_local_on: 0
-site_font_awesome_on: '0'
+site_font_awesome_on: '4'
 site_font_google_global_on: ''
 site_font_google_heading_on: ''
 site_font_google_special_on: ''

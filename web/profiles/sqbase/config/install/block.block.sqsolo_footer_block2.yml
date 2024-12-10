@@ -1,13 +1,13 @@
 langcode: ja
 status: true
 dependencies:
+  content:
+    - 'block_content:basic:a2e01f8f-52cc-4841-b70e-f689fd602712'
   module:
     - block_class
+    - block_content
   theme:
     - sqsolo
-third_party_settings:
-  block_class:
-    classes: w3-small
 id: sqsolo_footer_block2
 theme: sqsolo
 region: footer_second
