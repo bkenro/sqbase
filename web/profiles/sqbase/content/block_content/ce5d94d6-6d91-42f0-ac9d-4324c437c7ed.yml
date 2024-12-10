@@ -29,7 +29,7 @@ default:
       tag: link
       attributes:
         rel: canonical
-        href: 'http://default/about'
+        href: 'https://sqbase.ddev.site/about'
     -
       tag: meta
       attributes:
@@ -37,7 +37,7 @@ default:
         content: SQbase
   body:
     -
-      value: "<div class=\"w3-display-container\"><img alt=\"ようこそ\" data-align=\"\" data-entity-type=\"file\" data-entity-uuid=\"insert-image-79c740e5-3a4f-4bad-8b6f-38e3aae348fd\" height=\"800\" src=\"/sites/default/files/2022-10/welcome.jpg\" width=\"1600\" />\r\n<div class=\"w3-display-left w3-padding w3-margin-left w3-xxlarge w3-text-white zenkurenaido w3-hide-small w3-hide-medium\">ＤＸなホームページ<br />\r\n作りませんか？</div>\r\n\r\n<div class=\"w3-display-left w3-padding w3-margin-left w3-xlarge w3-text-white zenkurenaido w3-hide-small w3-hide-large\">ＤＸなホームページ<br />\r\n作りませんか？</div>\r\n\r\n<div class=\"w3-display-left w3-margin-left w3-large w3-text-white zenkurenaido w3-hide-medium w3-hide-large\">ＤＸなホームページ<br />\r\n作りませんか？</div>\r\n</div>\r\n"
+      value: '<div class="w3-display-container"><img src="/sites/default/files/2022-10/welcome.jpg" data-entity-uuid="insert-image-79c740e5-3a4f-4bad-8b6f-38e3aae348fd" data-entity-type="file" alt="ようこそ" width="1600" height="800" data-align=""><div class="w3-display-left w3-padding w3-margin-left w3-text-white zenkurenaido w3-hide-small w3-hide-medium w3-xxlarge"><p>ＤＸなホームページ</p><p>作りませんか？</p></div><div class="w3-display-left w3-padding w3-margin-left w3-text-white zenkurenaido w3-hide-small w3-hide-large w3-xlarge"><p>ＤＸなホームページ</p><p>作りませんか？</p></div><div class="w3-display-left w3-margin-left w3-text-white zenkurenaido w3-hide-medium w3-hide-large"><p>ＤＸなホームページ</p><p>作りませんか？</p></div></div>'
       format: full_html
       summary: ''
   field_image:

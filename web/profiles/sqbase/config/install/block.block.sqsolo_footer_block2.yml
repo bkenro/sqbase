@@ -1,11 +1,6 @@
 langcode: ja
 status: true
 dependencies:
-  content:
-    - 'block_content:basic:a2e01f8f-52cc-4841-b70e-f689fd602712'
-  module:
-    - block_class
-    - block_content
   theme:
     - sqsolo
 id: sqsolo_footer_block2

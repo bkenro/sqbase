@@ -23,14 +23,14 @@ sm_icon_whatsapp: ''
 sm_icon_threads: ''
 sm_icon_drupal: 'https://drupalsapporo.net/'
 sm_icon_mastodon: ''
-sm_icon_rss: rss.xml
+sm_icon_rss: /rss.xml
 sm_icon_email: ''
 footer_copyright: ''
 sm_show_icons: 1
 sm_icon_size: sm-icons-small
-footer_link: ''
-footer_link_label: ''
-footer_link_text: ''
+footer_link: 'https://synergyquest.jp/'
+footer_link_label: 'supported by'
+footer_link_text: 'Synergy Quest'
 count_main: 2
 site_global_width: sw-1600
 site_global_breakpoints: sb-992

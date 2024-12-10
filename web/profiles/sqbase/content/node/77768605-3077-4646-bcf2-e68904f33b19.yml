@@ -42,17 +42,17 @@ default:
       tag: meta
       attributes:
         name: description
-        content: "CSS フレームワークの\_W3.CSS に基づくテーマを採用しています。"
+        content: "CSS フレームワークの\_W3.CSS を利用した Solo テーマを採用しています。"
     -
       tag: meta
       attributes:
         name: abstract
-        content: "CSS フレームワークの\_W3.CSS に基づくテーマを採用しています。"
+        content: "CSS フレームワークの\_W3.CSS を利用した Solo テーマを採用しています。"
     -
       tag: link
       attributes:
         rel: canonical
-        href: 'http://default/features/w3css'
+        href: 'https://sqbase.ddev.site/features/w3css'
     -
       tag: meta
       attributes:
@@ -67,7 +67,7 @@ default:
       tag: meta
       attributes:
         property: 'og:url'
-        content: 'http://default/features/w3css'
+        content: 'https://sqbase.ddev.site/features/w3css'
     -
       tag: meta
       attributes:
@@ -77,12 +77,12 @@ default:
       tag: meta
       attributes:
         property: 'og:description'
-        content: "CSS フレームワークの\_W3.CSS に基づくテーマを採用しています。"
+        content: "CSS フレームワークの\_W3.CSS を利用した Solo テーマを採用しています。"
     -
       tag: meta
       attributes:
         property: 'og:image'
-        content: 'http://default/sites/default/files/styles/og_image/public/2022-10/frontend.jpg?itok=lULv0O8x'
+        content: 'https://sqbase.ddev.site/sites/default/files/styles/og_image/public/2022-10/frontend.jpg?itok=6Lvdstpg'
     -
       tag: meta
       attributes:
@@ -92,7 +92,7 @@ default:
       tag: meta
       attributes:
         name: 'twitter:description'
-        content: "CSS フレームワークの\_W3.CSS に基づくテーマを採用しています。"
+        content: "CSS フレームワークの\_W3.CSS を利用した Solo テーマを採用しています。"
     -
       tag: meta
       attributes:
@@ -102,7 +102,7 @@ default:
       tag: meta
       attributes:
         name: 'twitter:image'
-        content: 'http://default/sites/default/files/styles/twitter_card_large/public/2022-10/frontend.jpg?itok=_w_FYvRg'
+        content: 'https://sqbase.ddev.site/sites/default/files/styles/twitter_card_large/public/2022-10/frontend.jpg?itok=yVwWAFUv'
   path:
     -
       alias: /features/w3css
@@ -110,9 +110,9 @@ default:
       pathauto: 0
   body:
     -
-      value: "<p>サイトの外観を決めるテーマは、CSS フレームワークの&nbsp;<a href=\"https://www.w3schools.com/w3css/\" rel=\"noopener\" target=\"_blank\">W3.CSS</a> を利用した <a href=\"https://www.drupal.org/project/d8w3css\" rel=\"noopener\" target=\"_blank\">W3CSS Theme</a> をベースにしています。オリジナルのテーマ設定のほか、Web フォントの <a href=\"https://fonts.google.com/\" rel=\"noopener\" target=\"_blank\">Google Fonts</a> のオプションは、主要な<a href=\"https://googlefonts.github.io/japanese/\" rel=\"noopener\" target=\"_blank\">日本語フォント</a>が利用できるように拡張されています。</p>\r\n\r\n<p>W3.CSS のライブラリはサイト全体で利用可能です。テーマのカスタマイズはもちろん、ブログ記事や基本ページといったコンテンツのマークアップでも、W3.CSS のシンプルで実用的なユーティリティ クラスによる装飾やレイアウト指定が可能です。</p>\r\n\r\n<p>W3.CSS の詳細については、<a href=\"https://www.w3schools.com/w3css/\" rel=\"noopener\" target=\"_blank\">チュートリアル</a>（英語）を参照してください。日本語の情報としては、書籍<a href=\"https://www.amazon.co.jp/dp/B0BDGFDWDR\" rel=\"noopener\" target=\"_blank\">「Drupal 9 おいしいレシピ集 3」</a>で、このフレームワークと W3CSS Theme&nbsp;の特徴を紹介しています。</p>\r\n"
+      value: '<p>サイトの外観を決めるテーマは、CSS フレームワークの&nbsp;<a href="https://www.w3schools.com/w3css/" rel="noopener" target="_blank">W3.CSS</a> を利用した <a href="https://www.drupal.org/project/solo" rel="noopener" target="_blank">Solo</a> をベースにしています。きわめて豊富なオプションを提供するテーマで、管理画面の設定で多様なカスタマイズが可能です。</p><p>W3.CSS のライブラリはサイト全体で利用可能です。テーマのカスタマイズはもちろん、ブログ記事や基本ページといったコンテンツのマークアップでも、W3.CSS のシンプルで実用的なユーティリティ クラスによる装飾やレイアウト指定が可能です。</p><p>W3.CSS の詳細については、<a href="https://www.w3schools.com/w3css/" rel="noopener" target="_blank">チュートリアル</a>（英語）を参照してください。日本語の情報としては、書籍<a href="https://www.amazon.co.jp/dp/B0BDGFDWDR" rel="noopener" target="_blank">「Drupal 9 おいしいレシピ集 3」</a>で、このフレームワークの特徴を紹介しています。</p>'
       format: full_html
-      summary: "CSS フレームワークの\_W3.CSS に基づくテーマを採用しています。"
+      summary: "CSS フレームワークの\_W3.CSS を利用した Solo テーマを採用しています。"
   field_banner:
     -
       entity: 096ef6ad-65cb-4908-9906-8cab01224aa0
