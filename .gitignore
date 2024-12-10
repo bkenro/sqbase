@@ -10,6 +10,8 @@
 /web/web.config
 /web/core
 /web/libraries
+/web/profiles/contrib
+/web/profiles/README.txt
 /web/modules/contrib
 /web/modules/README.txt
 /web/themes/contrib
@@ -23,5 +25,8 @@
 # Ignore files for dev-tools etc.
 /nbproject
 /.vscode
+/.sq
 /misc
 /drush/sites/demo.site.yml
+/.ddev
+
