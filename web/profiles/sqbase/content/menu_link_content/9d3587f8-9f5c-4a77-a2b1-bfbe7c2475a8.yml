@@ -53,7 +53,7 @@ default:
       tag: link
       attributes:
         rel: canonical
-        href: 'http://default/about'
+        href: 'https://sqbase.ddev.site/about'
     -
       tag: meta
       attributes:

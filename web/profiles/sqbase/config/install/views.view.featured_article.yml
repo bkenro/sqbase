@@ -41,7 +41,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: '<i class="fa fa-calendar-o" aria-hidden="true"></i>&nbsp;{{ created }} '
+            text: '<i class="fa-regular fa-calendar"></i>&nbsp;{{ created }} '
             make_link: false
             path: ''
             absolute: false
@@ -93,6 +93,7 @@ display:
               past_format: '@interval ago'
               granularity: 2
               refresh: 60
+              description: ''
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -209,7 +210,7 @@ display:
           element_label_class: ''
           element_label_colon: false
           element_wrapper_type: ''
-          element_wrapper_class: 'w3-hide-small w3-hide-medium w3-small w3-text-dark-gray'
+          element_wrapper_class: 'w3-hide-small w3-hide-medium solo-small w3-text-dark-gray'
           element_default_classes: false
           empty: ''
           hide_empty: false
@@ -307,7 +308,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"w3-col s6 m5 w3-hover-opacity\">\r\n{{ field_banner }}\r\n</div>\r\n<div class=\"w3-col s6 m7 w3-padding\">\r\n<div>{{ title }}</div>\r\n<div class=\"w3-small w3-text-blue-gray\">{{ created }}</div>\r\n<div class=\"w3-small w3-text-dark-gray\">{{ body }}</div>\r\n</div>"
+            text: "<div class=\"w3-col s12 m5 w3-hover-opacity\">\r\n{{ field_banner }}\r\n</div>\r\n<div class=\"w3-col s12 m7 w3-padding\">\r\n<div>{{ title }}</div>\r\n<div class=\"solo-small w3-text-blue-gray\">{{ created }}</div>\r\n<div class=\"solo-small w3-text-dark-gray\">{{ body }}</div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false

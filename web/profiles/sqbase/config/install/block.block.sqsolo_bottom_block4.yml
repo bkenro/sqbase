@@ -1,0 +1,26 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sqsolo
+id: sqsolo_bottom_block4
+theme: sqsolo
+region: bottom_fourth
+weight: -12
+provider: null
+plugin: 'block_content:96993c0a-ed1a-4c9e-ae2a-c066fdf1f226'
+settings:
+  id: 'block_content:96993c0a-ed1a-4c9e-ae2a-c066fdf1f226'
+  label: ボトム四段組の4
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

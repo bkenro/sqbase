@@ -1,0 +1,17 @@
+langcode: ja
+status: true
+dependencies:
+  theme:
+    - sqsolo
+id: sqsolo_local_actions
+theme: sqsolo
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: プライマリ管理アクション
+  label_display: '0'
+  provider: core
+visibility: {  }

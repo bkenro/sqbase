@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2a820ee2e545f9d56b6d1122d5219d32",
+    "content-hash": "97250b66f9be6321b6a3086dc5bd108c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2655,52 +2655,6 @@
             }
         },
         {
-            "name": "drupal/d8w3css",
-            "version": "2.0.14",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/d8w3css.git",
-                "reference": "2.0.14"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/d8w3css-2.0.14.zip",
-                "reference": "2.0.14",
-                "shasum": "88362c8b5d6430227c5286b71ac3aa6b0d222025"
-            },
-            "require": {
-                "drupal/core": "^9 || ^10 || ^11"
-            },
-            "type": "drupal-theme",
-            "extra": {
-                "drupal": {
-                    "version": "2.0.14",
-                    "datestamp": "1722786471",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Alaa Haddad (alaahaddad.com)",
-                    "homepage": "https://www.drupal.org/u/flashwebcenter",
-                    "role": "Maintainer"
-                }
-            ],
-            "description": "Speed, Elegance & Ease of Development and Use.",
-            "homepage": "https://drupal.org/project/d8w3css",
-            "support": {
-                "source": "https://git.drupalcode.org/project/d8w3css",
-                "issues": "https://drupal.org/project/issues/d8w3css"
-            }
-        },
-        {
             "name": "drupal/default_content",
             "version": "2.0.0-alpha3",
             "source": {
@@ -3621,6 +3575,52 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/schema_metatag",
                 "issues": "https://www.drupal.org/project/issues/schema_metatag"
+            }
+        },
+        {
+            "name": "drupal/solo",
+            "version": "1.0.12",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/solo.git",
+                "reference": "1.0.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/solo-1.0.12.zip",
+                "reference": "1.0.12",
+                "shasum": "a18cdbf19af5895d9e15f65a74ea4ea54729c654"
+            },
+            "require": {
+                "drupal/core": "^10.1 || ^11"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.12",
+                    "datestamp": "1731511713",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Alaa Haddad (alaahaddad.com)",
+                    "homepage": "https://www.drupal.org/u/flashwebcenter",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Speed, Elegance & Ease of Development and Use.",
+            "homepage": "https://drupal.org/project/solo",
+            "support": {
+                "source": "https://git.drupalcode.org/project/solo",
+                "issues": "https://drupal.org/project/issues/solo"
             }
         },
         {

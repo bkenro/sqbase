@@ -49,7 +49,7 @@ default:
       tag: link
       attributes:
         rel: canonical
-        href: 'http://default/features'
+        href: 'https://sqbase.ddev.site/features'
     -
       tag: meta
       attributes:
@@ -64,7 +64,7 @@ default:
       tag: meta
       attributes:
         property: 'og:url'
-        content: 'http://default/features'
+        content: 'https://sqbase.ddev.site/features'
     -
       tag: meta
       attributes:
