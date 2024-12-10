@@ -59,6 +59,7 @@ install:
   - schema_metatag
   - shortcut
   - system
+  - squtil
   - taxonomy
   - text
   - token
