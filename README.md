@@ -1,12 +1,12 @@
 # SQbase
 
-SQbase（エス・キュー・ベース、愛称「すくべー」）は、シンプルなサイト構成とサンプル コンテンツを組み込んだ Drupal のインストール プロファイルです。[Drupal Meetup 豊田](https://drupal-meetup-toyota.connpass.com/)の書籍執筆活動で得られた知見に基づいて作成したものです。
+SQbase（エス・キュー・ベース）は、シンプルなサイト構成とサンプル コンテンツを組み込んだ Drupal のインストール プロファイルです。Drupal によるホームページやブログの構築、サイト構築トレーニングなど、ご自由にお使いください。
 
 ## 使い方
 
 ### 仮想マシンの場合
 
-まず、Drupal 9 が動作する LAMP スタックと Composer がインストールされた環境を用意します。
+まず、Drupal 10 が動作する LAMP スタックと Composer がインストールされた環境を用意します。
 Vagrant と VirtualBox をお使いの場合は、[ffdsm](https://github.com/bkenro/ffdsm) が利用できます。
 以下、ffdsm を例にインストール例を示します。
 
