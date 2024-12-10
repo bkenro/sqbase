@@ -35,6 +35,6 @@ default:
         content: SQbase
   body:
     -
-      value: '<h3>SQbase</h3><ul><li><a href="https://github.com/bkenro/sqbase" target="_blank">GitHub リポジトリ</a></li><li><a href="https://sqbase.white-root.com/" target="_blank">デモサイト</a></li></ul>'
+      value: '<h3>SQbase</h3><ul><li><a class="w3-hover-text-blue" href="https://github.com/bkenro/sqbase" target="_blank">GitHub リポジトリ</a></li><li><a class="w3-hover-text-blue" href="https://sqbase.white-root.com/" target="_blank">デモサイト</a></li></ul>'
       format: full_html
       summary: ''
