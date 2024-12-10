@@ -39,8 +39,8 @@ display:
           label: ''
           exclude: false
           alter:
-            alter_text: false
-            text: ''
+            alter_text: true
+            text: '<i class="fa-solid fa-caret-right"></i>&nbsp;{{ title }}'
             make_link: false
             path: ''
             absolute: false
