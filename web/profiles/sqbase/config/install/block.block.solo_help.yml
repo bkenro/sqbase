@@ -1,0 +1,19 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - solo
+id: solo_help
+theme: solo
+region: content
+weight: 3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: ヘルプ
+  label_display: '0'
+  provider: help
+visibility: {  }

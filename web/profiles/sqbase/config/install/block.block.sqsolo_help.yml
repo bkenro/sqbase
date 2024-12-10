@@ -1,0 +1,19 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - sqsolo
+id: sqsolo_help
+theme: sqsolo
+region: content
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: ヘルプ
+  label_display: '0'
+  provider: help
+visibility: {  }

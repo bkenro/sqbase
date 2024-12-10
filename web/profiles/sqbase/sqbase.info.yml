@@ -59,6 +59,7 @@ install:
   - schema_metatag
   - shortcut
   - system
+  - squtil
   - taxonomy
   - text
   - token
@@ -72,8 +73,8 @@ install:
   - views
 themes:
   - claro
-  - drupal8_w3css_theme
-  - sqw3css
+  - solo
+  - sqsolo
 
 default_content:
   node:

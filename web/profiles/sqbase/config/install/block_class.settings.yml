@@ -7,6 +7,9 @@ block_classes_stored:
   - w3-small
   - w3-link-blue
   - w3-container
+  - w3-display-right
+  - w3-right
+  - w3-right-align
 enable_attributes: true
 enable_auto_complete: true
 qty_classes_per_block: 10

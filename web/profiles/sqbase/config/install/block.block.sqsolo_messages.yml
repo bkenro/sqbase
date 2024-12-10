@@ -1,0 +1,19 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sqsolo
+id: sqsolo_messages
+theme: sqsolo
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: ステータスメッセージ
+  label_display: '0'
+  provider: system
+visibility: {  }

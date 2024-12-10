@@ -29,7 +29,7 @@ default:
       tag: link
       attributes:
         rel: canonical
-        href: 'http://default/about'
+        href: 'https://sqbase.ddev.site/about'
     -
       tag: meta
       attributes:
@@ -37,7 +37,7 @@ default:
         content: SQbase
   body:
     -
-      value: "<div class=\"w3-col s5 m3 l12\"><img alt=\"アヒル\" data-align=\"\" data-entity-type=\"file\" data-entity-uuid=\"insert-image-ccd2699f-bc04-40af-9cc2-3cd25746fa2e\" data-insert-attach=\"{&quot;id&quot;:&quot;ccd2699f-bc04-40af-9cc2-3cd25746fa2e&quot;,&quot;attributes&quot;:{&quot;alt&quot;:[&quot;alt&quot;,&quot;description&quot;],&quot;title&quot;:[&quot;title&quot;]}}\" data-insert-class=\"\" data-insert-type=\"image\" height=\"426\" src=\"/sites/default/files/2022-10/face-duck.jpg\" width=\"640\" /></div>\r\n\r\n<div class=\"w3-col w3-margin-top w3-hide-small w3-hide-medium\">\r\n<div class=\"w3-center\">アヒル</div>\r\n\r\n<div class=\"w3-small w3-text-dark-gray\">品質管理担当。ガーガー言って回る嫌われ役を率先する仕事鳥。</div>\r\n</div>\r\n\r\n<div class=\"w3-col s7 m9 w3-hide-large\">\r\n<div class=\"w3-margin-left w3-large\">アヒル</div>\r\n\r\n<div class=\"w3-margin-left w3-small w3-text-dark-gray\">品質管理担当。ガーガー言って回る嫌われ役を率先する仕事鳥。</div>\r\n</div>\r\n"
+      value: '<div class="w3-col s5 m3 l12"><img src="/sites/default/files/2022-10/face-duck.jpg" data-entity-uuid="insert-image-ccd2699f-bc04-40af-9cc2-3cd25746fa2e" data-entity-type="file" alt="アヒル" width="640" height="426" data-align="" data-insert-attach="{&quot;id&quot;:&quot;ccd2699f-bc04-40af-9cc2-3cd25746fa2e&quot;,&quot;attributes&quot;:{&quot;alt&quot;:[&quot;alt&quot;,&quot;description&quot;],&quot;title&quot;:[&quot;title&quot;]}}" data-insert-class="" data-insert-type="image"></div><div class="w3-col w3-margin-top w3-hide-small w3-hide-medium"><div class="w3-center">アヒル</div><div class="solo-small">品質管理担当。ガーガー言って回る嫌われ役を率先する仕事鳥。</div></div><div class="w3-col s7 m9 w3-hide-large"><div class="w3-margin-left w3-large">アヒル</div><div class="w3-margin-left solo-small">品質管理担当。ガーガー言って回る嫌われ役を率先する仕事鳥。</div></div>'
       format: full_html
       summary: ''
   field_image:
