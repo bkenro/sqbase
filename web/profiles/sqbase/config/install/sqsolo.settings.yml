@@ -45,8 +45,8 @@ enable_custom_widths: 0
 site_width_article: ''
 site_width_page: ''
 site_node_date_format: solo_date_l
-site_import_google_font: ''
-site_css_injector: ''
+site_import_google_font: 'https://fonts.googleapis.com/css2?family=Reggae+One&display=swap'
+site_css_injector: ".reggae-one-regular {\r\n  font-family: \"Reggae One\", system-ui;\r\n  font-weight: 400;\r\n  font-style: normal;\r\n}"
 site_css_dynamic: ''
 site_js_dynamic: ''
 site_login_page_on: 0

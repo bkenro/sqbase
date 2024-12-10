@@ -81,7 +81,7 @@ default:
       tag: meta
       attributes:
         property: 'og:image'
-        content: 'https://sqbase.ddev.site/sites/default/files/styles/og_image/public/2022-10/blog-default.jpg?itok=fbQvyyHg'
+        content: 'https://sqbase.ddev.site/sites/default/files/styles/og_image/public/2022-10/blog-default.jpg?itok=NKlTOLbv'
     -
       tag: meta
       attributes:
@@ -101,7 +101,7 @@ default:
       tag: meta
       attributes:
         name: 'twitter:image'
-        content: 'https://sqbase.ddev.site/sites/default/files/styles/twitter_card_large/public/2022-10/blog-default.jpg?itok=gWCsooIW'
+        content: 'https://sqbase.ddev.site/sites/default/files/styles/twitter_card_large/public/2022-10/blog-default.jpg?itok=p8yl2te3'
   path:
     -
       alias: /blog/1665319345
@@ -116,7 +116,7 @@ default:
     -
       status: 1
       cid: 0
-      last_comment_timestamp: 1733831752
+      last_comment_timestamp: 1733834341
       last_comment_name: ''
       last_comment_uid: 1
       comment_count: 0
