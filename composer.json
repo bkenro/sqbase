@@ -49,6 +49,7 @@
         "drupal/pathauto": "^1.12",
         "drupal/redirect": "^1.9",
         "drupal/schema_metatag": "^3.0",
+        "drupal/solo": "^1.0",
         "drupal/token": "^1.10",
         "drupal/webform": "^6.2@beta",
         "drupal/webprofiler": "^10.1",
