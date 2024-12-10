@@ -1,0 +1,22 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - solo
+id: solo_branding
+theme: solo
+region: header
+weight: 1
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: サイトブランディング
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

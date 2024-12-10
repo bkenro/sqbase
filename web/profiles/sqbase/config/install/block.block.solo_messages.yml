@@ -1,0 +1,19 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - solo
+id: solo_messages
+theme: solo
+region: system_messages
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: ステータスメッセージ
+  label_display: '0'
+  provider: system
+visibility: {  }

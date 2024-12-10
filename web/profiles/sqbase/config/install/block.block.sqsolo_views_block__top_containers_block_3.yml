@@ -1,0 +1,28 @@
+langcode: ja
+status: true
+dependencies:
+  config:
+    - views.view.top_containers
+  module:
+    - system
+    - views
+  theme:
+    - sqsolo
+id: sqsolo_views_block__top_containers_block_3
+theme: sqsolo
+region: top_third
+weight: 0
+provider: null
+plugin: 'views_block:top_containers-block_3'
+settings:
+  id: 'views_block:top_containers-block_3'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

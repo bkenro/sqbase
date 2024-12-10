@@ -1,0 +1,19 @@
+langcode: ja
+status: true
+dependencies:
+  theme:
+    - solo
+id: solo_local_tasks
+theme: solo
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: タブ
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }
