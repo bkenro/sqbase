@@ -308,7 +308,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"w3-col s6 m5 w3-hover-opacity\">\r\n{{ field_banner }}\r\n</div>\r\n<div class=\"w3-col s6 m7 w3-padding\">\r\n<div>{{ title }}</div>\r\n<div class=\"w3-small w3-text-blue-gray\">{{ created }}</div>\r\n<div class=\"w3-small w3-text-dark-gray\">{{ body }}</div>\r\n</div>"
+            text: "<div class=\"w3-col s12 m5 w3-hover-opacity\">\r\n{{ field_banner }}\r\n</div>\r\n<div class=\"w3-col s12 m7 w3-padding\">\r\n<div>{{ title }}</div>\r\n<div class=\"solo-small w3-text-blue-gray\">{{ created }}</div>\r\n<div class=\"solo-small w3-text-dark-gray\">{{ body }}</div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
