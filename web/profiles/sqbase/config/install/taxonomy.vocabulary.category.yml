@@ -5,3 +5,4 @@ name: カテゴリ
 vid: category
 description: サイト上のページを分類するにはカテゴリが使用できます。
 weight: 0
+new_revision: false

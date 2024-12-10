@@ -1,4 +1,3 @@
-langcode: ja
 all:
   - language_interface
   - language_content

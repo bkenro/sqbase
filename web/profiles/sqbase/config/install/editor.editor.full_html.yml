@@ -82,8 +82,10 @@ settings:
     ckeditor5_imageResize:
       allow_resize: true
     ckeditor5_list:
-      reversed: true
-      startIndex: true
+      properties:
+        reversed: true
+        startIndex: true
+      multiBlock: true
     ckeditor5_sourceEditing:
       allowed_tags: {  }
     editor_advanced_link_link:
@@ -92,9 +94,3 @@ settings:
       allow_view_mode_override: false
 image_upload:
   status: false
-  scheme: public
-  directory: inline-images
-  max_size: ''
-  max_dimensions:
-    width: 0
-    height: 0

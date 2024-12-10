@@ -1,3 +1,2 @@
-langcode: ja
 interface:
   default: php_mail

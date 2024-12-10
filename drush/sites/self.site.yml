@@ -18,3 +18,18 @@ local:
           account-mail: 'admin@example.com'
           site-name: 'SQbase'
           sites-subdir: 'default'
+
+ddev:
+  root: /var/www/html
+  uri: https://sqbase.ddev.site
+  command:
+    site:
+      install:
+        options:
+          db-url: 'mysql://db:db@db/db'
+          locale: ja
+          account-name: 'admin'
+          account-pass: 'adminpass'
+          account-mail: 'admin@example.com'
+          site-name: 'SQbase'
+          sites-subdir: 'default'

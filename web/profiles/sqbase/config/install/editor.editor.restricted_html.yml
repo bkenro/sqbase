@@ -29,8 +29,10 @@ settings:
         - heading5
         - heading6
     ckeditor5_list:
-      reversed: false
-      startIndex: true
+      properties:
+        reversed: false
+        startIndex: true
+      multiBlock: true
     ckeditor5_sourceEditing:
       allowed_tags:
         - '<cite>'
@@ -48,4 +50,5 @@ settings:
         - '<h6 id>'
     editor_advanced_link_link:
       enabled_attributes: {  }
-image_upload: {  }
+image_upload:
+  status: false
