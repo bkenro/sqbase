@@ -89,8 +89,20 @@ settings:
     ckeditor5_sourceEditing:
       allowed_tags: {  }
     editor_advanced_link_link:
-      enabled_attributes: {  }
+      enabled_attributes:
+        - aria-label
+        - class
+        - id
+        - rel
+        - target
+        - title
     media_media:
       allow_view_mode_override: false
 image_upload:
-  status: false
+  status: true
+  scheme: public
+  directory: inline-images
+  max_size: null
+  max_dimensions:
+    width: null
+    height: null
