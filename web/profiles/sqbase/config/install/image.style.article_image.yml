@@ -1,0 +1,14 @@
+langcode: ja
+status: true
+dependencies: {  }
+name: article_image
+label: 記事画像
+effects:
+  f5b6013f-e954-46d4-8345-7c55be3efe13:
+    uuid: f5b6013f-e954-46d4-8345-7c55be3efe13
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 900
+      height: 300
+      anchor: center-center
