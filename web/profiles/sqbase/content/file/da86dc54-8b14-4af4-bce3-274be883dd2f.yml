@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: da86dc54-8b14-4af4-bce3-274be883dd2f
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: yozora.jpg
+  uri:
+    -
+      value: 'public://2024-12/yozora.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 567703
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1733919952
