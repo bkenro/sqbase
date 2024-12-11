@@ -7,4 +7,4 @@ dependencies:
 id: solo_date_m
 label: 'Solo Date Medium'
 locked: false
-pattern: 'Y/m/d(D) - H:i'
+pattern: 'Y/m/d (D) - H:i'
