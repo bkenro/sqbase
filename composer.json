@@ -16,6 +16,10 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.ewdev.ca/yonas.legesse/drupal-recipe-unpack.git"
         }
     ],
     "require": {
@@ -45,6 +49,7 @@
         "drupal/token": "^1.10",
         "drupal/xmlsitemap": "^1.2",
         "drush/drush": "^12",
+        "ewcomposer/unpack": "dev-master",
         "oomphinc/composer-installers-extender": "^2.0"
     },
     "conflict": {
@@ -60,7 +65,8 @@
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
             "oomphinc/composer-installers-extender": true,
-            "cweagans/composer-patches": true
+            "cweagans/composer-patches": true,
+            "ewcomposer/unpack": true
         }
     },
     "extra": {

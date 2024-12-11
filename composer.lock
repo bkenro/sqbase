@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0019e2b8998d6510d4261d0c38f4c2d5",
+    "content-hash": "e43d5209f82b496faf36b8054288f160",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3100,6 +3100,41 @@
                 }
             ],
             "time": "2023-10-06T06:47:41+00:00"
+        },
+        {
+            "name": "ewcomposer/unpack",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.ewdev.ca/yonas.legesse/drupal-recipe-unpack.git",
+                "reference": "3654c2990203584c56ac99eadeaf2c092a56162d"
+            },
+            "require": {
+                "composer-plugin-api": "^2",
+                "php": ">=7.3.0"
+            },
+            "require-dev": {
+                "composer/composer": "^1.8@stable"
+            },
+            "default-branch": true,
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Drupal\\Recipe\\Unpack\\Composer\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Drupal\\Recipe\\Unpack\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Composer functionality to individualize package management of module dependencies.",
+            "keywords": [
+                "drupal",
+                "drupal_recipe"
+            ],
+            "time": "2023-06-20T04:52:43+00:00"
         },
         {
             "name": "grasmash/expander",
@@ -7555,7 +7590,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/default_content": 15
+        "drupal/default_content": 15,
+        "ewcomposer/unpack": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
