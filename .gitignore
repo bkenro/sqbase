@@ -17,6 +17,8 @@
 /web/themes/contrib
 /web/themes/README.txt
 /web/sites
+/recipes/*
+!/recipes/custom
 
 # Ignore user generated files
 /private
