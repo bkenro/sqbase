@@ -17,10 +17,11 @@ settings:
       - strikethrough
       - bulletedList
       - numberedList
+      - blockQuote
       - link
       - imce_link
-      - drupalMedia
       - drupalInsertImage
+      - drupalMedia
       - imce_image
       - code
       - codeBlock
