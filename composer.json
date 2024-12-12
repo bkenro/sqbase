@@ -77,7 +77,8 @@
         },
         "installer-types": [
             "npm-asset",
-            "bower-asset"
+            "bower-asset",
+            "drupal-recipe"
         ],
         "installer-paths": {
             "web/core": [
@@ -108,6 +109,9 @@
             ],
             "web/themes/custom/{$name}": [
                 "type:drupal-custom-theme"
+            ],
+            "recipes/{$name}": [
+                "type:drupal-recipe"
             ]
         },
         "drupal-core-project-message": {
