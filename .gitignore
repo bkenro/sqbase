@@ -17,8 +17,7 @@
 /web/themes/contrib
 /web/themes/README.txt
 /web/sites
-/recipes/*
-!/recipes/custom
+/web/recipes
 
 # Ignore user generated files
 /private
@@ -31,4 +30,3 @@
 /misc
 /drush/sites/demo.site.yml
 /.ddev
-
