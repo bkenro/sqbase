@@ -1,0 +1,22 @@
+uuid: 11cdec97-637b-4aa9-9488-9f1a414815fe
+langcode: ja
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - solo
+_core:
+  default_config_hash: vgrmvh_tM3dNOayq7kpPAXl1I0rS7gX6Uc2kQBM79ow
+id: solo_messages
+theme: solo
+region: system_messages
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: ステータスメッセージ
+  label_display: '0'
+  provider: system
+visibility: {  }

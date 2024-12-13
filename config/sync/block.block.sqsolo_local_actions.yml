@@ -1,0 +1,20 @@
+uuid: 65339ce9-8fb0-4cf1-aad1-f32d0c526cc2
+langcode: ja
+status: true
+dependencies:
+  theme:
+    - sqsolo
+_core:
+  default_config_hash: JrXMBqEUMHMcVOxiukDiYHPL6mniAIddzZD5Pi4ui-Q
+id: sqsolo_local_actions
+theme: sqsolo
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: プライマリ管理アクション
+  label_display: '0'
+  provider: core
+visibility: {  }

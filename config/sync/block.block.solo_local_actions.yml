@@ -1,0 +1,20 @@
+uuid: 6cb970ab-a410-4c22-bdc1-32fc9b873ff7
+langcode: ja
+status: true
+dependencies:
+  theme:
+    - solo
+_core:
+  default_config_hash: eogeAeu96tmdelmEUMqAYVUDOzn-ouaJYn9b-ILbraA
+id: solo_local_actions
+theme: solo
+region: content
+weight: 1
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: プライマリ管理アクション
+  label_display: '0'
+  provider: core
+visibility: {  }

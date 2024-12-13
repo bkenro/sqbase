@@ -1,0 +1,17 @@
+uuid: a16cc5eb-277f-488c-adf4-65b948c72e70
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: EyBzMNo31uVU2EXTfbCpfBSQR9n-lK-5WhUmnD4TWc0
+name: medium
+label: '中 (220×220)'
+effects:
+  bddf0d06-42f9-4c75-a700-a33cafa25ea0:
+    uuid: bddf0d06-42f9-4c75-a700-a33cafa25ea0
+    id: image_scale
+    weight: 0
+    data:
+      width: 220
+      height: 220
+      upscale: false

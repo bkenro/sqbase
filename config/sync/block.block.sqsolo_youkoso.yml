@@ -1,0 +1,29 @@
+uuid: 8be2bd4b-e7ec-4859-a76c-1cfc95886f5a
+langcode: ja
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sqsolo
+_core:
+  default_config_hash: LE1HL85u52BLdsH0YzyIWpMs9aRJM9PpZtrqKF8VnkI
+id: sqsolo_youkoso
+theme: sqsolo
+region: welcome_text
+weight: 0
+provider: null
+plugin: 'block_content:ce5d94d6-6d91-42f0-ac9d-4324c437c7ed'
+settings:
+  id: 'block_content:ce5d94d6-6d91-42f0-ac9d-4324c437c7ed'
+  label: ようこそ
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

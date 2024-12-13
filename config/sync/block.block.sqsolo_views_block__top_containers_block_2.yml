@@ -1,0 +1,31 @@
+uuid: 3666ae98-a674-4be3-a28a-4a1c5de2ba0f
+langcode: ja
+status: true
+dependencies:
+  config:
+    - views.view.top_containers
+  module:
+    - system
+    - views
+  theme:
+    - sqsolo
+_core:
+  default_config_hash: wMpB1MPIeppiO4wTvCcp-tB2Rfxy1PpoPFj6ZcOeHlA
+id: sqsolo_views_block__top_containers_block_2
+theme: sqsolo
+region: top_second
+weight: 0
+provider: null
+plugin: 'views_block:top_containers-block_2'
+settings:
+  id: 'views_block:top_containers-block_2'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

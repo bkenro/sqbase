@@ -1,0 +1,20 @@
+uuid: 929b4470-0d12-4637-b475-2e61036e4741
+langcode: ja
+status: true
+dependencies:
+  theme:
+    - solo
+_core:
+  default_config_hash: jcsrRU1Rt_86UWfPMJN1P_3NTjH-BTZD_-hwfkSPF-8
+id: solo_page_title
+theme: solo
+region: page_title
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: ページのタイトル
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,10 @@
+uuid: ee1dbd94-4738-4bc1-803a-1d05f58a2c76
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: TICmIlfpLUhR_K_5LO2ELKpNtvcOv7BoywxCZZXhw-c
+id: tools
+label: ツール
+description: モジュールなどで追加されたユーザーツールリンク
+locked: true

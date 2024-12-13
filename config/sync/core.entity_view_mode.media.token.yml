@@ -1,0 +1,13 @@
+uuid: 70dbf816-f505-4163-ae86-1aec4e7beb01
+langcode: ja
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: NLBnRNkq5_EFeacH25jfmfgP7u7UEMKzBd1HnlBamQI
+id: media.token
+label: Token
+description: ''
+targetEntityType: media
+cache: true

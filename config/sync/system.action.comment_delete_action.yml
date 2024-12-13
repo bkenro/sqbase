@@ -1,0 +1,13 @@
+uuid: cbbfea75-e6b7-490f-a812-9cd99d534631
+langcode: ja
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: yWCGPnuccJSmJF_4NlQo7bAGuPkgB77OQxMO7oUYfF4
+id: comment_delete_action
+label: コメントの削除
+type: comment
+plugin: 'entity:delete_action:comment'
+configuration: {  }

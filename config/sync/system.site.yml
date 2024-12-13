@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: Psa6s03Nx2vV3v9atRtV13-mxm9wsRoAoiR25noyQCM
+langcode: ja
+uuid: cf013950-a99b-4391-827b-39406f3377da
+name: SQbase
+mail: admin@example.com
+slogan: 'ホームページ構築 CMS 基本キット'
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: ja
+mail_notification: ''

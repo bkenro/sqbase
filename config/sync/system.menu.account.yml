@@ -1,0 +1,10 @@
+uuid: 728ba1f0-89ab-49ba-b51b-7122de0f3798
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: LGD1YvMNBpgVY1YFioCwRiDyGzeqKHufeiEYcGmwjoE
+id: account
+label: 'User account menu'
+description: アクティブなユーザーアカウントに関連したリンク
+locked: true

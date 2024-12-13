@@ -1,0 +1,27 @@
+uuid: 26f7a415-f740-4800-a715-b297558e3e47
+langcode: ja
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - solo
+_core:
+  default_config_hash: Ui7OvHweFX02wcLy-iq6fyXs-1iPm37mHGhW8kXmVXI
+id: solo_account_menu
+theme: solo
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: ユーザーアカウントメニュー
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

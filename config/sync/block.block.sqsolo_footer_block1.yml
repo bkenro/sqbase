@@ -1,0 +1,23 @@
+uuid: dab57786-7be8-4015-a9bd-5516e0a57c51
+langcode: ja
+status: true
+dependencies:
+  theme:
+    - sqsolo
+_core:
+  default_config_hash: Lg_azB_iOWezrNtaVz7IDpluKKo_EK-yFb5qpBcFjTU
+id: sqsolo_footer_block1
+theme: sqsolo
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:64e96fee-0b0d-4a42-b19c-33cbc01bae8b'
+settings:
+  id: 'block_content:64e96fee-0b0d-4a42-b19c-33cbc01bae8b'
+  label: フッター三段組の左
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

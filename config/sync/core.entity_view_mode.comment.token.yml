@@ -1,0 +1,13 @@
+uuid: e5a5e491-df86-4c06-a84a-2567f5986ba0
+langcode: ja
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: DOOWMebgfcc-dIe0Kcv3D88T0ZI_q767WtZyaNIpXOk
+id: comment.token
+label: Token
+description: ''
+targetEntityType: comment
+cache: true

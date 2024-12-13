@@ -1,0 +1,31 @@
+uuid: 899c0ac3-6a38-44f1-9c49-d101ee5b820c
+langcode: ja
+status: true
+dependencies:
+  config:
+    - views.view.featured_article
+  module:
+    - system
+    - views
+  theme:
+    - sqsolo
+_core:
+  default_config_hash: wyM_nBiXo4amLKEBBJDXn_rcxl3QZ11cE6dbFrVliag
+id: sqsolo_views_block__featured_article_block_1
+theme: sqsolo
+region: sidebar_second
+weight: -9
+provider: null
+plugin: 'views_block:featured_article-block_1'
+settings:
+  id: 'views_block:featured_article-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

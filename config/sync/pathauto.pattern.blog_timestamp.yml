@@ -1,0 +1,24 @@
+uuid: 8ecbfbbf-9165-4c4f-935b-adfd9d741247
+langcode: ja
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: qwrxioyCFVfAZbdFnM3hCkqoDcBTxuaBncvYmUTlkmU
+id: blog_timestamp
+label: ブログ記事のタイムスタンプ形式パス
+type: 'canonical_entities:node'
+pattern: 'blog/[node:created:raw]'
+selection_criteria:
+  e6cfb4b1-c492-4163-9eea-5503faac60e2:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: e6cfb4b1-c492-4163-9eea-5503faac60e2
+    context_mapping:
+      node: node
+    bundles:
+      article: article
+selection_logic: and
+weight: -5
+relationships: {  }

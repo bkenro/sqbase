@@ -1,0 +1,16 @@
+uuid: deadcfa2-9a14-47b0-86d9-0440b86cb40c
+langcode: ja
+status: true
+dependencies:
+  module:
+    - media
+  enforced:
+    module:
+      - media_library
+_core:
+  default_config_hash: _uuYExJoZFvC_00dk96NCsZvxy49zK9rEXFHZemvg8U
+id: media.media_library
+label: 'Media library'
+description: ''
+targetEntityType: media
+cache: true

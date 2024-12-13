@@ -1,0 +1,13 @@
+uuid: 4d336cad-192d-4e3d-aa7d-2e6eeadad1ae
+langcode: ja
+status: true
+dependencies:
+  enforced:
+    theme:
+      - solo
+_core:
+  default_config_hash: Xmrg6XixDq16YVuBhIRIcV9OAG59FV_92IC6NTp8uuQ
+id: solo_date_m
+label: 'Solo Date Medium'
+locked: false
+pattern: 'Y/m/d (D) - H:i'

@@ -1,0 +1,22 @@
+uuid: 008f22b0-c5f1-4143-b9f9-3cca9f2caabb
+langcode: ja
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - solo
+_core:
+  default_config_hash: FresTOi4OG11GSL7gjpmZZQ4Bcw1GP_L4qBUsOVdhCE
+id: solo_help
+theme: solo
+region: content
+weight: 3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: ヘルプ
+  label_display: '0'
+  provider: help
+visibility: {  }

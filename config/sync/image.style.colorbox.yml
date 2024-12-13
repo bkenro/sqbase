@@ -1,0 +1,17 @@
+uuid: 055a9098-100e-4659-adf0-f7fb84bde202
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 15Jp8Ilrh1C73Uea-wugGdUlzQ_mB2U2L6EVWkfAmmM
+name: colorbox
+label: Colorbox
+effects:
+  714ee8dc-368e-48ba-8407-7376091e6f3a:
+    uuid: 714ee8dc-368e-48ba-8407-7376091e6f3a
+    id: image_scale
+    weight: 1
+    data:
+      width: 960
+      height: null
+      upscale: false

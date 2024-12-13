@@ -1,0 +1,26 @@
+uuid: fe9f7177-40e0-4ad9-bcb7-b389d5776c8e
+langcode: ja
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - sqsolo
+third_party_settings:
+  block_class:
+    classes: 'w3-small w3-link-blue w3-right-align'
+_core:
+  default_config_hash: HmwOug9Nsg-HbGpgv7yDXkmY3TDuHmJQrxbLLMiSWb0
+id: sqsolo_powered
+theme: sqsolo
+region: footer_third
+weight: -11
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

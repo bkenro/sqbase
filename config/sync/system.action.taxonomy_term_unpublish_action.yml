@@ -1,0 +1,13 @@
+uuid: ec90154f-a75f-4f93-8d2e-55366cc3d69d
+langcode: ja
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: TnyqWVUjGzohdWkjDPRmPWEPJnvkjuCgHXY54l73AWQ
+id: taxonomy_term_unpublish_action
+label: 'Unpublish taxonomy term'
+type: taxonomy_term
+plugin: 'entity:unpublish_action:taxonomy_term'
+configuration: {  }

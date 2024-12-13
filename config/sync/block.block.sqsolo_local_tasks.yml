@@ -1,0 +1,22 @@
+uuid: 4ea4d7c8-a9ef-4b6b-a563-761b1c815a00
+langcode: ja
+status: true
+dependencies:
+  theme:
+    - sqsolo
+_core:
+  default_config_hash: HUZLP7YeBTAKya3_G4Bs0DbhI-Oz-R3eiSnzqc8WFMY
+id: sqsolo_local_tasks
+theme: sqsolo
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: タブ
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

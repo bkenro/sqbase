@@ -1,0 +1,13 @@
+uuid: 885e5859-8887-4823-9255-7d4bbfec5c64
+langcode: ja
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: X5qViKod2Pe93tAunV41l-uVG6vjFwkqRuRMuUKq2wQ
+id: node_save_action
+label: コンテンツの保存
+type: node
+plugin: 'entity:save_action:node'
+configuration: {  }

@@ -1,0 +1,13 @@
+uuid: 2af23d19-b2d7-4409-afa2-5facb59dac17
+langcode: ja
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+_core:
+  default_config_hash: CfbwA1GwHcgadtD0GZjxbEVxWSI5qiCorEmbu1A4EKg
+id: block_content.basic
+target_entity_type_id: block_content
+target_bundle: basic
+default_langcode: site_default
+language_alterable: false
