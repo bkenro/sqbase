@@ -30,7 +30,6 @@
         }
     ],
     "require": {
-        "bkenro/sqbase-dev": "dev-develop",
         "bower-asset/colorbox": "^1.6",
         "bower-asset/dompurify": "^3.0",
         "composer/installers": "^1.9",
