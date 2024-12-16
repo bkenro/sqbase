@@ -94,9 +94,6 @@
             "drupal-recipe"
         ],
         "installer-paths": {
-            "web/recipes/{$name}": [
-                "type:drupal-recipe"
-            ],
             "web/core": [
                 "type:drupal-core"
             ],
@@ -126,7 +123,7 @@
             "web/themes/custom/{$name}": [
                 "type:drupal-custom-theme"
             ],
-            "recipes/{$name}": [
+            "web/recipes/{$name}": [
                 "type:drupal-recipe"
             ]
         },
