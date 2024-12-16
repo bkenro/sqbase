@@ -1,0 +1,11 @@
+{
+    "name": "bkenro/sqbase-editor",
+    "description": "Rich editor extension for SQbase.",
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/editor_advanced_link": "^2.2",
+        "drupal/imce": "^3.1",
+        "drupal/ckeditor5_plugin_pack": "^1.2"
+    }
+}
