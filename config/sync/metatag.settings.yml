@@ -1,8 +1,0 @@
-_core:
-  default_config_hash: spDFOE3iffGI42mfkDW1V7j6C6Wy81n0HLa-wpJ18tE
-entity_type_groups: {  }
-tag_trim_method: beforeValue
-use_maxlength: true
-tag_trim_maxlength: {  }
-tag_scroll_max_height: ''
-tag_trim_end: '|.,-:;/+&([{"'''

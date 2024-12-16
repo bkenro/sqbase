@@ -1,9 +1,0 @@
-uuid: 649b65eb-10f2-4d2c-b925-4f605c465b73
-langcode: ja
-status: true
-dependencies: {  }
-_core:
-  default_config_hash: x2H-vMoc6WiTBRwzwlCRjBk-liMs1fJuzG-PGTmPE3c
-id: NXhscRe0440PFpI5dSznEVgmauL25KojD7u4e9aZwOM
-label: 'http://default'
-context: {  }
