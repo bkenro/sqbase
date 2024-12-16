@@ -1,0 +1,9 @@
+uuid: fe154aca-f17f-4b96-94c8-377c1e52f257
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: x2H-vMoc6WiTBRwzwlCRjBk-liMs1fJuzG-PGTmPE3c
+id: NXhscRe0440PFpI5dSznEVgmauL25KojD7u4e9aZwOM
+label: 'http://default'
+context: {  }

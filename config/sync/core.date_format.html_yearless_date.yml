@@ -1,0 +1,10 @@
+uuid: ae40fb48-6de1-4489-8287-33d429cd83a2
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: uW3OLYqr9Pu1kK1ooK0wWPy-Et26JoyEc2RXl4gGcf0
+id: html_yearless_date
+label: 'HTML 年無し日付'
+locked: true
+pattern: m-d

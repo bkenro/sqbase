@@ -1,0 +1,13 @@
+uuid: 1d6b4596-48c5-43dc-be35-5210d5f43f7b
+langcode: ja
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: qjuoWKuRChbkt9ulIJI7ckSDmirmZ7Sd4w6QIkFW3wk
+id: user.register
+label: 登録
+description: ''
+targetEntityType: user
+cache: true

@@ -1,0 +1,25 @@
+uuid: cc40a03c-9b38-4cb5-9faf-708aeef70344
+langcode: ja
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - solo
+_core:
+  default_config_hash: '-A6ohU0i6NMpNcJdORvKDDqhVb7BT0MQzdEQIGpivLw'
+id: solo_branding
+theme: solo
+region: header
+weight: 1
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: サイトブランディング
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

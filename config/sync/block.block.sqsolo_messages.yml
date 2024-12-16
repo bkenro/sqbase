@@ -1,0 +1,22 @@
+uuid: 05dd267f-8c83-4f7f-a08f-8d7c4a7ee653
+langcode: ja
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sqsolo
+_core:
+  default_config_hash: vrrtYsZRV2ouPfwtVlYE9Hcx3a4hHnyLxEKHIJE0yys
+id: sqsolo_messages
+theme: sqsolo
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: ステータスメッセージ
+  label_display: '0'
+  provider: system
+visibility: {  }

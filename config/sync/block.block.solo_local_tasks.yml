@@ -1,0 +1,22 @@
+uuid: fdf12291-ef3a-4342-a8f9-9ba7c753dd45
+langcode: ja
+status: true
+dependencies:
+  theme:
+    - solo
+_core:
+  default_config_hash: IhVUhgGIUhTphHGEwJ3eZrK4PbJvwjGw9krrFTzGfMY
+id: solo_local_tasks
+theme: solo
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: タブ
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

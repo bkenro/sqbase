@@ -1,0 +1,25 @@
+uuid: 6a6d9ae9-f8a9-4fa7-be02-aac613084641
+langcode: ja
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sqsolo
+_core:
+  default_config_hash: WgtGezO2NpmZeoTLD7DTKYhMZVpFM0j6CqxZ_Vevgl8
+id: sqsolo_branding
+theme: sqsolo
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: サイトブランディング
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

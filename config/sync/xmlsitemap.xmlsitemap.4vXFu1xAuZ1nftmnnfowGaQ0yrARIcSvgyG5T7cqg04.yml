@@ -1,0 +1,10 @@
+uuid: ec39b3aa-ce07-4171-9148-247c6c30df42
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jQz1uDZrzlt_bfAGfk8nKS22o9q3WLa_QN2GPZkBGW4
+id: 4vXFu1xAuZ1nftmnnfowGaQ0yrARIcSvgyG5T7cqg04
+label: 'http://sqbase.internal'
+context:
+  language: ja

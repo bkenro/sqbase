@@ -1,0 +1,70 @@
+uuid: b01e3ec4-8429-485b-96eb-8da0e5f598c1
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.field.node.article.body
+    - field.field.node.article.comment
+    - field.field.node.article.field_banner
+    - field.field.node.article.field_image
+    - field.field.node.article.field_tags
+    - image.style.article_image
+    - image.style.colorbox
+    - node.type.article
+  module:
+    - colorbox
+    - field_formatter_class
+    - text
+    - user
+_core:
+  default_config_hash: fuH5N5djlZs0t5SLAtUsfOZxTNhwgV7qKxQHUDqZsOM
+id: node.article.default
+targetEntityType: node
+bundle: article
+mode: default
+content:
+  addtoany:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_image:
+    type: colorbox
+    label: hidden
+    settings:
+      colorbox_image_style: colorbox
+      colorbox_gallery: post
+      colorbox_gallery_custom: ''
+      colorbox_caption: auto
+      colorbox_caption_custom: ''
+      colorbox_node_style: article_image
+      colorbox_node_style_first: article_image
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    weight: 1
+    region: content
+  field_tags:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden:
+  comment: true
+  field_banner: true
+  langcode: true

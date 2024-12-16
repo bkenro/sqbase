@@ -1,0 +1,18 @@
+uuid: 66d4472d-17da-4526-8332-bc9090bf26e2
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: G_FzT8IMdIEnsTLwMh1PidECgUgQrD8ACPLTObR_Rs4
+id: taxonomy_term
+label: 'Taxonomy term'
+tags:
+  canonical_url: '[term:url]'
+  description: '[term:description]'
+  og_description: '[term:description]'
+  og_site_name: '[site:name]'
+  og_title: '[term:name]'
+  og_type: article
+  og_url: '[term:url]'
+  title: '[term:name] | [site:name]'
+  twitter_cards_title: '[term:name]'

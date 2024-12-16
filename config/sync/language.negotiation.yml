@@ -1,0 +1,11 @@
+_core:
+  default_config_hash: GfpCtzW3aM_lxDmDF26awBzQYJV_8YTrwjgY84-B4uo
+session:
+  parameter: language
+url:
+  source: path_prefix
+  prefixes:
+    ja: ''
+  domains:
+    ja: ''
+selected_langcode: site_default

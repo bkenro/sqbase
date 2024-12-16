@@ -1,0 +1,22 @@
+uuid: d69df844-4c4d-438b-b269-a0507c762127
+langcode: ja
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - claro
+_core:
+  default_config_hash: OB4NYNL9hQ8uCkUeoihz8JjBhV-swJOu81CPrKfYeRI
+id: claro_messages
+theme: claro
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

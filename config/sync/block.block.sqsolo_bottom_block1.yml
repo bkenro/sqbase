@@ -1,0 +1,29 @@
+uuid: b32594bf-7547-4f5e-887a-7920fbfae81e
+langcode: ja
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sqsolo
+_core:
+  default_config_hash: 1eTnnFlqB2HYX32KzzSw4kswjdtNE2pQjHXj8ufOUu8
+id: sqsolo_bottom_block1
+theme: sqsolo
+region: bottom_first
+weight: 0
+provider: null
+plugin: 'block_content:fc628ea8-385d-47db-929c-9f254fe05ee1'
+settings:
+  id: 'block_content:fc628ea8-385d-47db-929c-9f254fe05ee1'
+  label: ボトム四段組の1
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

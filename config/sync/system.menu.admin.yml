@@ -1,0 +1,10 @@
+uuid: 56e4d2d9-e863-4633-987d-5d660faf48f5
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: aJr8ZJTcOE74Z5s1mGjorMzko8JEFwFSBjr43GHkCgM
+id: admin
+label: 管理
+description: 管理タスクのリンク
+locked: true

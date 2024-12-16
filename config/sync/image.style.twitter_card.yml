@@ -1,0 +1,17 @@
+uuid: e81c3a98-2305-4d32-86c4-8c946951502b
+langcode: ja
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: xjJSYObDeo5KdMXIRCmUHWxpivWNYt10WKMK7Z6b1n4
+name: twitter_card
+label: 'Twitter Card Summary'
+effects:
+  da638c0c-5131-4426-9d0f-48c6f1808a6e:
+    uuid: da638c0c-5131-4426-9d0f-48c6f1808a6e
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 144
+      height: 144
+      anchor: center-center

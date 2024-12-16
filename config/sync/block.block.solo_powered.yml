@@ -1,0 +1,22 @@
+uuid: f8cba1e4-4489-4824-a864-fd7d102731b0
+langcode: ja
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - solo
+_core:
+  default_config_hash: LjQLTYSiBjgXuG2Lw6DtEtZ3G04shZ81uZ05Ua-71zU
+id: solo_powered
+theme: solo
+region: footer_menu
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: fccea3fa-1d49-4daf-b322-4814edc248ab
+langcode: ja
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - solo
+_core:
+  default_config_hash: sy775m91TdY4kvAhmAxs_p_A4vXW6U3O6S0JRS39UlY
+id: solo_content
+theme: solo
+region: content
+weight: 4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: メインページコンテンツ
+  label_display: '0'
+  provider: system
+visibility: {  }

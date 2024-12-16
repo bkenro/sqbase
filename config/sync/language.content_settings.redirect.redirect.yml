@@ -1,0 +1,13 @@
+uuid: bedf19e2-d7fa-4447-873f-718f9d1f5d0b
+langcode: ja
+status: true
+dependencies:
+  module:
+    - redirect
+_core:
+  default_config_hash: MNfoQ4_EiGDZOxPzwVPu2QfQzpGA3ZBG7Ars4ocTxGo
+id: redirect.redirect
+target_entity_type_id: redirect
+target_bundle: redirect
+default_langcode: und
+language_alterable: true

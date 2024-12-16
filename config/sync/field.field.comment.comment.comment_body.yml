@@ -1,0 +1,24 @@
+uuid: 6c4c3736-ee1c-4ad6-b761-a35583eae45a
+langcode: ja
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+    - field.storage.comment.comment_body
+  module:
+    - text
+_core:
+  default_config_hash: VV7PIOxheifDKUJRrZS4MYm69t9Uc18MXTbeVxHR03I
+id: comment.comment.comment_body
+field_name: comment_body
+entity_type: comment
+bundle: comment
+label: コメント
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

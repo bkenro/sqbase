@@ -1,0 +1,30 @@
+uuid: dadfd899-35e4-42cc-a812-50c90480b9aa
+langcode: ja
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+  module:
+    - comment
+    - contact
+    - file
+    - filter
+    - media
+    - shortcut
+    - system
+_core:
+  default_config_hash: YnYxFOvLfXbYLzXld4hOWIos1nWP9v0ORCF4DtcsjYY
+id: authenticated
+label: 認証済みユーザー
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'delete own files'
+  - 'post comments'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'view media'

@@ -1,0 +1,27 @@
+uuid: f4491aca-7189-45f5-87ec-83f4b1ba3e14
+langcode: ja
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - solo
+_core:
+  default_config_hash: DYxfehqB9Lwx-jGLxaza41bQNGm5somg4RSo5FChKYw
+id: solo_footer
+theme: solo
+region: footer_menu
+weight: -10
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: フッターメニュー
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility: {  }

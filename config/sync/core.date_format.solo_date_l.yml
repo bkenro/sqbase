@@ -1,0 +1,13 @@
+uuid: f9e86f0a-12c4-4b63-9573-6c8d95d71898
+langcode: ja
+status: true
+dependencies:
+  enforced:
+    theme:
+      - solo
+_core:
+  default_config_hash: f-iK8tkP1i9jJKsHGAXAhK0JbQQN47XssIrBZ39lNJA
+id: solo_date_l
+label: 'Solo Date Long'
+locked: false
+pattern: 'Y年n月j日 (l) - H:i'

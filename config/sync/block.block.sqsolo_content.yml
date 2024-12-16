@@ -1,0 +1,26 @@
+uuid: 0d318299-84f2-4723-aece-20e6ca288e02
+langcode: ja
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - sqsolo
+third_party_settings:
+  block_class:
+    classes: w3-link-blue
+_core:
+  default_config_hash: lvGmF9r7obQTE_YJyM8S1wm7ZvdGmB88nIaSuL3OO6Y
+id: sqsolo_content
+theme: sqsolo
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: メインページコンテンツ
+  label_display: '0'
+  provider: system
+visibility: {  }
