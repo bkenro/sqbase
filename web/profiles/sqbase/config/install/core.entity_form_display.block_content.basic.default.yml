@@ -8,7 +8,6 @@ dependencies:
     - image.style.thumbnail
   module:
     - image
-    - imce
     - text
 id: block_content.basic.default
 targetEntityType: block_content
@@ -32,9 +31,7 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
-    third_party_settings:
-      imce:
-        enabled: true
+    third_party_settings: {  }
   info:
     type: string_textfield
     weight: 0

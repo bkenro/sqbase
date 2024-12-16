@@ -36,7 +36,6 @@ install:
   - help
   - history
   - image
-  - imce
   - language
   - link
   - locale
