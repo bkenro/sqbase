@@ -27,6 +27,13 @@
             "options": {
                 "symlink": false
             }
+        },
+        {
+            "type": "path",
+            "url": "recipes/sqbase-backup",
+            "options": {
+                "symlink": false
+            }
         }
     ],
     "require": {

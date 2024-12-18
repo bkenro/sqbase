@@ -1,0 +1,5 @@
+name: 'SQbase backup'
+description: "Backup support for SQbase"
+type: Administration
+install:
+  - backup_migrate
