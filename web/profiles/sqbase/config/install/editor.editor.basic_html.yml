@@ -17,7 +17,6 @@ settings:
       - numberedList
       - link
       - drupalInsertImage
-      - sourceEditing
   plugins:
     ckeditor5_heading:
       enabled_headings:
@@ -33,25 +32,5 @@ settings:
         reversed: false
         startIndex: true
       multiBlock: true
-    ckeditor5_sourceEditing:
-      allowed_tags:
-        - '<cite>'
-        - '<dl>'
-        - '<dt>'
-        - '<dd>'
-        - '<span>'
-        - '<a hreflang>'
-        - '<blockquote cite>'
-        - '<ul type>'
-        - '<ol type>'
-        - '<h2 id>'
-        - '<h3 id>'
-        - '<h4 id>'
-        - '<h5 id>'
-        - '<h6 id>'
-    editor_advanced_link_link:
-      enabled_attributes:
-        - id
-        - target
 image_upload:
   status: false
