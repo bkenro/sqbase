@@ -17,6 +17,7 @@ settings:
       - numberedList
       - link
       - drupalInsertImage
+      - fullScreen
   plugins:
     ckeditor5_heading:
       enabled_headings:
@@ -32,5 +33,9 @@ settings:
         reversed: false
         startIndex: true
       multiBlock: true
+    editor_advanced_link_link:
+      enabled_attributes:
+        - id
+        - target
 image_upload:
   status: false

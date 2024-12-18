@@ -15,6 +15,9 @@ install:
   - block_content
   - breakpoint
   - ckeditor5
+  - ckeditor5_plugin_pack
+  - ckeditor5_plugin_pack_font
+  - ckeditor5_premium_features_fullscreen
   - coffee
   - colorbox
   - comment
@@ -28,6 +31,7 @@ install:
   - dynamic_page_cache
   - easy_breadcrumb
   - editor
+  - editor_advanced_link
   - field
   - field_formatter_class
   - field_ui
@@ -36,6 +40,7 @@ install:
   - help
   - history
   - image
+  - imce
   - language
   - link
   - locale
