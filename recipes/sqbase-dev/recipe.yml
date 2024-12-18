@@ -1,0 +1,10 @@
+name: 'SQbase dev'
+description: "Developer support for SQbase"
+type: Administration
+install:
+  - devel
+  - webprofiler
+config:
+  import:
+    devel: '*'
+    webprofiler: '*'

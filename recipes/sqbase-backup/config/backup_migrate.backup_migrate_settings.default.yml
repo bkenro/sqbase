@@ -1,0 +1,21 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: default
+label: Default
+config:
+  namer:
+    filename: backup
+    timestamp: true
+    timestamp_format: Y-m-d\TH-i-s
+  compressor:
+    compression: gzip
+  utils:
+    site_offline: false
+  metadata:
+    description: ''
+  notify:
+    notify_success_enable: 0
+    notify_success_email: admin@example.com
+    notify_failure_enable: 0
+    notify_failure_email: admin@example.com

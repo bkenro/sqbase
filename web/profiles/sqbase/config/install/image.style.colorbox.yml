@@ -1,0 +1,14 @@
+langcode: ja
+status: true
+dependencies: {  }
+name: colorbox
+label: Colorbox
+effects:
+  714ee8dc-368e-48ba-8407-7376091e6f3a:
+    uuid: 714ee8dc-368e-48ba-8407-7376091e6f3a
+    id: image_scale
+    weight: 1
+    data:
+      width: 960
+      height: null
+      upscale: false

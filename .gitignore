@@ -1,4 +1,4 @@
-# .gitignore for D9 project managed with Composer.
+# .gitignore for Drupal project managed with Composer.
 
 # Ignore files generated from the pj template
 /vendor
@@ -17,6 +17,7 @@
 /web/themes/contrib
 /web/themes/README.txt
 /web/sites
+/web/recipes
 
 # Ignore user generated files
 /private
@@ -29,4 +30,3 @@
 /misc
 /drush/sites/demo.site.yml
 /.ddev
-

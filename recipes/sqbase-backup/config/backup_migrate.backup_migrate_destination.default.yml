@@ -1,0 +1,8 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: default
+label: Default
+type: Directory
+config:
+  directory: 'private://backup_migrate'
