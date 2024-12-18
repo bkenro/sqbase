@@ -15,19 +15,24 @@ settings:
       - italic
       - underline
       - strikethrough
+      - fontColor
+      - fontBackgroundColor
+      - fontSize
       - bulletedList
+      - '-'
       - numberedList
       - blockQuote
       - link
       - imce_link
       - drupalInsertImage
-      - drupalMedia
       - imce_image
+      - drupalMedia
       - code
       - codeBlock
       - insertTable
       - specialCharacters
       - sourceEditing
+      - fullScreen
   plugins:
     ckeditor5_codeBlock:
       languages:
@@ -87,6 +92,19 @@ settings:
         reversed: true
         startIndex: true
       multiBlock: true
+    ckeditor5_plugin_pack_font__font_color:
+      colors: {  }
+      use_default_colors: true
+      use_colorpicker: true
+    ckeditor5_plugin_pack_font__font_size:
+      options: |-
+        11
+        13
+        default
+        17
+        21
+        24
+        32
     ckeditor5_sourceEditing:
       allowed_tags: {  }
     editor_advanced_link_link:

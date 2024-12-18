@@ -1,0 +1,10 @@
+{
+    "name": "bkenro/sqbase-dev",
+    "description": "Developer support for SQbase.",
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/devel": "^5.3",
+        "drupal/webprofiler": "^10.1"
+    }
+}

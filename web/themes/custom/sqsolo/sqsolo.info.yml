@@ -6,6 +6,9 @@ description: 'Solo Sub-theme by Synergy Quest.'
 libraries:
   - sqsolo/sqsolo-global
 
+ckeditor5-stylesheets:
+  - css/theme/solo-ckeditor5.css
+
 #Regions
 regions:
   highlighted: 'Highlighted'

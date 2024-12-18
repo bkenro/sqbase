@@ -15,6 +15,9 @@ install:
   - block_content
   - breakpoint
   - ckeditor5
+  - ckeditor5_plugin_pack
+  - ckeditor5_plugin_pack_font
+  - ckeditor5_premium_features_fullscreen
   - coffee
   - colorbox
   - comment

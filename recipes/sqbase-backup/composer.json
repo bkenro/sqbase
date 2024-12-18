@@ -1,0 +1,10 @@
+{
+    "name": "bkenro/sqbase-backup",
+    "description": "Backup support for SQbase.",
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/backup_migrate": "^5.1",
+        "defuse/php-encryption": "^2.4"
+    }
+}

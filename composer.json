@@ -20,6 +20,20 @@
         {
             "type": "vcs",
             "url": "https://gitlab.ewdev.ca/yonas.legesse/drupal-recipe-unpack.git"
+        },
+        {
+            "type": "path",
+            "url": "recipes/sqbase-dev",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "recipes/sqbase-backup",
+            "options": {
+                "symlink": false
+            }
         }
     ],
     "require": {
@@ -31,6 +45,7 @@
         "drupal/admin_toolbar": "^3.4",
         "drupal/back_to_top": "^3.0",
         "drupal/block_class": "^4.0",
+        "drupal/ckeditor5_plugin_pack": "^1.2",
         "drupal/coffee": "^2.0",
         "drupal/colorbox": "^2.0",
         "drupal/core-composer-scaffold": "^10",
@@ -41,7 +56,7 @@
         "drupal/easy_breadcrumb": "^2.0",
         "drupal/editor_advanced_link": "^2.2",
         "drupal/field_formatter_class": "^1.6",
-        "drupal/imce": "^3.0",
+        "drupal/imce": "^3.1",
         "drupal/metatag": "^2.0",
         "drupal/pathauto": "^1.12",
         "drupal/redirect": "^1.9",
@@ -63,11 +78,12 @@
         "sort-packages": true,
         "allow-plugins": {
             "composer/installers": true,
+            "cweagans/composer-patches": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
+            "ewcomposer/unpack": true,
             "oomphinc/composer-installers-extender": true,
-            "cweagans/composer-patches": true,
-            "ewcomposer/unpack": true
+            "php-http/discovery": true
         }
     },
     "extra": {
@@ -82,9 +98,6 @@
             "drupal-recipe"
         ],
         "installer-paths": {
-            "web/recipes/{$name}": [
-                "type:drupal-recipe"
-            ],
             "web/core": [
                 "type:drupal-core"
             ],
@@ -114,7 +127,7 @@
             "web/themes/custom/{$name}": [
                 "type:drupal-custom-theme"
             ],
-            "recipes/{$name}": [
+            "web/recipes/{$name}": [
                 "type:drupal-recipe"
             ]
         },
