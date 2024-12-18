@@ -27,13 +27,6 @@
             "options": {
                 "symlink": false
             }
-        },
-        {
-            "type": "path",
-            "url": "recipes/sqbase-editor",
-            "options": {
-                "symlink": false
-            }
         }
     ],
     "require": {

@@ -1,9 +1,0 @@
-name: 'SQbase editor'
-description: "Rich editor extensison recipe for SQbase"
-type: Editor
-install:
-  - editor_advanced_link
-  - imce
-  - ckeditor5_plugin_pack
-  - ckeditor5_plugin_pack_font
-  - ckeditor5_premium_features_fullscreen
