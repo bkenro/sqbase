@@ -1,8 +1,11 @@
 sqsolo-global:
   version: VERSION
   css:
+    base:
+      css/base/solo-variables.css: {}
     theme:
       css/solo-subtheme-style.css: {}
+      css/components/solo-page-title.css: {}
 
   js:
     js/solo-subtheme-script.js: {}
