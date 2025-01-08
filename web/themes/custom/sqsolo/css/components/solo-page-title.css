@@ -1,0 +1,9 @@
+h1.page-title-text {
+  padding-block: 0;
+}
+
+@media (max-width:48rem) {
+  h1.page-title-text {
+    padding-block: 0;
+  }
+}
