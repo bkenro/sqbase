@@ -64,6 +64,7 @@
         "drupal/schema_metatag": "^3.0",
         "drupal/solo": "^1.0",
         "drupal/token": "^1.10",
+        "drupal/trash": "^3.0",
         "drupal/xmlsitemap": "^1.2",
         "drush/drush": "^12",
         "ewcomposer/unpack": "dev-master",

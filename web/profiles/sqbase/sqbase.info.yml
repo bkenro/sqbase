@@ -66,6 +66,7 @@ install:
   - text
   - token
   - toolbar
+  - trash
   - update
   - user
   - views_ui

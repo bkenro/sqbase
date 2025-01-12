@@ -130,3 +130,23 @@ msgstr "@count 秒"
 msgid "@count minutes"
 msgstr "@count 分"
 
+msgid "Back to content editing"
+msgstr "コンテンツの編集に戻る"
+
+msgid "Leaving the preview will cause unsaved changes to be lost. Are you sure you want to leave the preview?"
+msgstr "プレビューを終了すると未保存の変更は失われます。終了してもよろしいですか ?"
+
+msgid "CTRL+Left click will prevent this dialog from showing and proceed to the clicked link."
+msgstr "CTRL キーを押してリンクをクリックすると、このダイアログを開いたまま別タブで開くことができます。"
+
+msgid "Edit @entity_label"
+msgstr "@entity_labelを編集"
+
+msgid "Edit @bundle"
+msgstr "@bundleを編集"
+
+msgid "Deleting this @label will move it to the <a href=\":link\">trash</a>. You can restore it from the trash at a later date if necessary."
+msgstr "この \"@label\" を削除すると「<a href=\":link\">ごみ箱</a>」に移動します。必要に応じて後で復元することができます。"
+
+msgid "content item"
+msgstr "コンテンツアイテム"
