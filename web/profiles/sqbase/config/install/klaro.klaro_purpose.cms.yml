@@ -1,0 +1,6 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: cms
+label: Functional
+weight: -1

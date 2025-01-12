@@ -41,6 +41,7 @@ install:
   - history
   - image
   - imce
+  - klaro
   - language
   - link
   - locale

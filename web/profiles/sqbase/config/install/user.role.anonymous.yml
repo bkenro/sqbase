@@ -7,6 +7,7 @@ dependencies:
     - comment
     - contact
     - filter
+    - klaro
     - media
     - system
 id: anonymous
@@ -17,5 +18,6 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
+  - 'use klaro'
   - 'use text format restricted_html'
   - 'view media'
