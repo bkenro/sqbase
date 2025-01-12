@@ -3,3 +3,189 @@ msgstr ""
 
 msgid "By"
 msgstr "投稿："
+
+msgid "Collapse sidebar"
+msgstr "サイドバーを折りたたむ"
+
+msgid "Expand sidebar"
+msgstr "サイドバーを展開"
+
+msgid "Structure"
+msgstr "サイト構築"
+
+msgid "People"
+msgstr "ユーザー"
+
+msgid "Reports"
+msgstr "レポート"
+
+msgid "Status report"
+msgstr "サイトの状態"
+
+msgid "Available updates"
+msgstr "利用可能なアップデート"
+
+msgid "Metatag plugins"
+msgstr "Metatag プラグイン"
+
+msgid "Views plugins"
+msgstr "Views プラグイン"
+
+msgid "Content authoring"
+msgstr "コンテンツ作成"
+
+msgid "Development"
+msgstr "開発"
+
+msgid "Search and metadata"
+msgstr "検索とメタデータ"
+
+msgid "Region and language"
+msgstr "地域と言語"
+
+msgid "Views"
+msgstr "ビュー"
+
+msgid "Date and time formats"
+msgstr "日付と時間のフォーマット"
+
+msgid "Back to Administration"
+msgstr "管理画面に戻る"
+
+msgid "Hide summary"
+msgstr "概要を隠す"
+
+msgid "Edit summary"
+msgstr "概要を編集"
+
+msgid "Hide sidebar panel"
+msgstr "サイドバーパネルを隠す"
+
+msgid "Show sidebar panel"
+msgstr "サイドバーパネルを表示"
+
+msgid "More actions"
+msgstr "その他の操作"
+
+msgid "Performance"
+msgstr "パフォーマンス"
+
+msgid "Development settings"
+msgstr "開発設定"
+
+msgid "Basic site settings"
+msgstr "サイトの基本設定"
+
+msgid "Logging and errors"
+msgstr "ログとエラーメッセージ"
+
+msgid "Maintenance mode"
+msgstr "メンテナンスモード"
+
+msgid "URL aliases"
+msgstr "URL エイリアス"
+
+msgid "File system"
+msgstr "ファイル システム"
+
+msgid "Go to"
+msgstr "ジャンプ"
+
+msgid "Use alt+d to start Coffee and search for a page to go to"
+msgstr "Alt+D キーで移動先パスを検索"
+
+msgid "Content"
+msgstr "コンテンツ"
+
+msgid "- Any -"
+msgstr "- すべて -"
+
+msgid "Filter"
+msgstr "フィルタ"
+
+msgid "Log in"
+msgstr "ログイン"
+
+msgid "Reset your password"
+msgstr "パスワードを再設定"
+
+msgid "Edit shortcuts"
+msgstr "ショートカットを編集"
+
+msgid "Create @name"
+msgstr "@nameの作成"
+
+msgid "Media"
+msgstr "メディア"
+
+msgid "My account"
+msgstr "アカウント情報"
+
+msgid "Member for"
+msgstr "ユーザー登録から"
+
+msgid "@count seconds"
+msgstr "@count 秒"
+
+msgid "@count minutes"
+msgstr "@count 分"
+
+msgid "Back to content editing"
+msgstr "コンテンツの編集に戻る"
+
+msgid "Leaving the preview will cause unsaved changes to be lost. Are you sure you want to leave the preview?"
+msgstr "プレビューを終了すると未保存の変更は失われます。終了してもよろしいですか ?"
+
+msgid "CTRL+Left click will prevent this dialog from showing and proceed to the clicked link."
+msgstr "CTRL キーを押してリンクをクリックすると、このダイアログを開いたまま別タブで開くことができます。"
+
+msgid "Edit @entity_label"
+msgstr "@entity_labelを編集"
+
+msgid "Edit @bundle"
+msgstr "@bundleを編集"
+
+msgid "Deleting this @label will move it to the <a href=\":link\">trash</a>. You can restore it from the trash at a later date if necessary."
+msgstr "この \"@label\" を削除すると「<a href=\":link\">ごみ箱</a>」に移動します。必要に応じて後で復元することができます。"
+
+msgid "content item"
+msgstr "コンテンツアイテム"
+
+msgid "A version of this page you were editing at @date was saved as a draft. Do you want to resume editing or discard it?"
+msgstr "@date に編集していたこのページの下書きが保存されています。編集を再開しますか ?"
+
+msgid "Resume editing"
+msgstr "編集を再開"
+
+msgid "Discard"
+msgstr "下書きを破棄"
+
+msgid "Trash"
+msgstr "ごみ箱"
+
+msgid "Role settings"
+msgstr "役割の設定"
+
+msgid "Add user"
+msgstr "ユーザーを追加"
+
+msgid "There are no deleted @label."
+msgstr "削除された@labelはありません。"
+
+msgid "content items"
+msgstr "コンテンツアイテム"
+
+msgid "Install"
+msgstr "インストール"
+
+msgid "Uninstall"
+msgstr "アンインストール"
+
+msgid "Save permissions"
+msgstr "権限を保存"
+
+msgid "Decline"
+msgstr "拒否する"
+
+msgid "We use cookies and process personal data for the following purposes: {purposes}."
+msgstr "当サイトでは Cookie を使用しています。目的: {purposes}"
