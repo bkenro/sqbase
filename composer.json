@@ -43,6 +43,7 @@
         "cweagans/composer-patches": "^1.7",
         "drupal/addtoany": "^2.0",
         "drupal/admin_toolbar": "^3.4",
+        "drupal/autosave_form": "^1.7",
         "drupal/back_to_top": "^3.0",
         "drupal/block_class": "^4.0",
         "drupal/ckeditor5_plugin_pack": "^1.2",
@@ -157,6 +158,9 @@
         "patches": {
             "drupal/core": {
                 "Allow recipes to be applied": "https://git.drupalcode.org/project/distributions_recipes/-/raw/patch/recipe-10.3.x.patch"
+            },
+            "drupal/autosave_form": {
+                "Fix for deprecation error on user edit form": "https://www.drupal.org/files/issues/2024-11-18/3487459-4.patch"
             }
         }
     }

@@ -150,3 +150,27 @@ msgstr "この \"@label\" を削除すると「<a href=\":link\">ごみ箱</a>�
 
 msgid "content item"
 msgstr "コンテンツアイテム"
+
+msgid "A version of this page you were editing at @date was saved as a draft. Do you want to resume editing or discard it?"
+msgstr "@date に編集していたこのページの下書きが保存されています。編集を再開しますか ?"
+
+msgid "Resume editing"
+msgstr "編集を再開"
+
+msgid "Discard"
+msgstr "下書きを破棄"
+
+msgid "Trash"
+msgstr "ごみ箱"
+
+msgid "Role settings"
+msgstr "役割の設定"
+
+msgid "Add user"
+msgstr "ユーザーを追加"
+
+msgid "There are no deleted @label."
+msgstr "削除された@labelはありません。"
+
+msgid "content items"
+msgstr "コンテンツアイテム"

@@ -5,6 +5,7 @@ core_version_requirement: ^10
 install:
   - addtoany
   - automated_cron
+  - autosave_form
   - back_to_top
   - ban
   - big_pipe
