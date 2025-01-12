@@ -1,0 +1,6 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: security
+label: セキュリティー
+weight: 4
