@@ -174,3 +174,18 @@ msgstr "削除された@labelはありません。"
 
 msgid "content items"
 msgstr "コンテンツアイテム"
+
+msgid "Install"
+msgstr "インストール"
+
+msgid "Uninstall"
+msgstr "アンインストール"
+
+msgid "Save permissions"
+msgstr "権限を保存"
+
+msgid "Decline"
+msgstr "拒否する"
+
+msgid "We use cookies and process personal data for the following purposes: {purposes}."
+msgstr "当サイトでは Cookie を使用しています。目的: {purposes}"
