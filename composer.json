@@ -67,7 +67,7 @@
         "drupal/token": "^1.10",
         "drupal/trash": "^3.0",
         "drupal/xmlsitemap": "^1.2",
-        "drush/drush": "^12",
+        "drush/drush": "^13",
         "ewcomposer/unpack": "dev-master",
         "oomphinc/composer-installers-extender": "^2.0"
     },
