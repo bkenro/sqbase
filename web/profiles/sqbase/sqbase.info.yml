@@ -4,8 +4,6 @@ description: 'Synergy Quest basic site install profile.'
 core_version_requirement: ^10
 install:
   - addtoany
-  - admin_toolbar
-  - admin_toolbar_tools
   - automated_cron
   - back_to_top
   - ban
@@ -37,6 +35,7 @@ install:
   - field_ui
   - file
   - filter
+  - gin_toolbar
   - help
   - history
   - image
@@ -76,6 +75,7 @@ install:
   - views
 themes:
   - claro
+  - gin
   - solo
   - sqsolo
 
