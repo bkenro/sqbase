@@ -26,7 +26,6 @@ ddev:
     site:
       install:
         options:
-          db-url: 'mysql://db:db@db/db'
           locale: ja
           account-name: 'admin'
           account-pass: 'adminpass'
