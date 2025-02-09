@@ -103,3 +103,8 @@ https://www.drupal.org/docs/extending-drupal/themes/contributed-themes/solo/inst
 article.node.node--view-mode-full .node__header .node__meta {
   justify-content: flex-start;
 }
+
+.page-wrapper .main-navigation-wrapper,
+.page-wrapper .main-navigation-wrapper ul.navigation__menubar {
+  z-index: 500 !important;
+}
