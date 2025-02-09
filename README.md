@@ -2,7 +2,7 @@
 
 SQbase（エス・キュー・ベース）は、シンプルなサイト構成とサンプル コンテンツを組み込んだ Drupal のインストール プロファイルです。Drupal によるホームページやブログの構築、サイト構築トレーニングなど自由にお使いください。デモサイトを用意しています。
 
-- [https://sqbase.white-root.com/](https://sqbase.white-root.com/)
+- [http://sqbase.white-root.com/](http://sqbase.white-root.com/)
 
 ## 使い方
 
