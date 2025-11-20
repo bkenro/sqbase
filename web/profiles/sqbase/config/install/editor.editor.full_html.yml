@@ -32,7 +32,6 @@ settings:
       - insertTable
       - specialCharacters
       - sourceEditing
-      - fullScreen
   plugins:
     ckeditor5_codeBlock:
       languages:
