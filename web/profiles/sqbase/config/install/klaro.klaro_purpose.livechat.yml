@@ -3,4 +3,5 @@ status: true
 dependencies: {  }
 id: livechat
 label: 'Live chat'
+description: ''
 weight: 3
