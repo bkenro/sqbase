@@ -3,4 +3,5 @@ status: true
 dependencies: {  }
 id: analytics
 label: Analytics
+description: ''
 weight: 1

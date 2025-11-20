@@ -3,4 +3,5 @@ status: true
 dependencies: {  }
 id: security
 label: セキュリティー
+description: ''
 weight: 4

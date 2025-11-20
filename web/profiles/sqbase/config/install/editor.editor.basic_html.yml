@@ -17,7 +17,6 @@ settings:
       - numberedList
       - link
       - drupalInsertImage
-      - fullScreen
   plugins:
     ckeditor5_heading:
       enabled_headings:
