@@ -1,0 +1,11 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - node
+    - trash
+id: node_restore_action
+label: 'Restore コンテンツアイテム from trash'
+type: node
+plugin: 'entity:restore_action:node'
+configuration: {  }

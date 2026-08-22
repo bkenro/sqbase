@@ -1,0 +1,11 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - node
+    - trash
+id: node_purge_action
+label: 'Permanently delete コンテンツアイテム'
+type: node
+plugin: 'entity:purge_action:node'
+configuration: {  }

@@ -1,12 +1,14 @@
 langcode: ja
 status: true
 dependencies:
+  config:
+    - node.type.article
   module:
     - node
 id: blog_timestamp
 label: ブログ記事のタイムスタンプ形式パス
 type: 'canonical_entities:node'
-pattern: 'blog/[node:created:raw]'
+pattern: '/blog/[node:created:raw]'
 selection_criteria:
   e6cfb4b1-c492-4163-9eea-5503faac60e2:
     id: 'entity_bundle:node'

@@ -1,0 +1,25 @@
+langcode: ja
+status: false
+dependencies: {  }
+id: google_ads_consent_mode
+label: 'Google Ads'
+description: 'Measures ad performance and personalizes advertising.'
+default: false
+required: false
+opt_out: false
+only_once: false
+contextual_consent_only: null
+contextual_consent_text: null
+info_url: 'https://ads.google.com/'
+privacy_policy_url: 'https://policies.google.com/privacy'
+purposes:
+  - advertising
+cookies: {  }
+callback_code: ''
+on_init: ''
+on_accept: "gtag('consent', 'update', {\r\n  'ad_storage': 'granted',\r\n  'ad_user_data': 'granted',\r\n  'ad_personalization': 'granted'\r\n});"
+on_decline: "gtag('consent', 'update', {\r\n  'ad_storage': 'denied',\r\n  'ad_user_data': 'denied',\r\n  'ad_personalization': 'denied'\r\n});"
+javascripts: {  }
+wrapper_identifier: {  }
+attachments: {  }
+weight: 1

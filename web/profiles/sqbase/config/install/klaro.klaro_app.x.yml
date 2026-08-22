@@ -16,6 +16,9 @@ purposes:
   - external_content
 cookies: {  }
 callback_code: ''
+on_init: ''
+on_accept: ''
+on_decline: ''
 javascripts:
   - platform.twitter.com/widgets.js
 wrapper_identifier:

@@ -1,7 +1,7 @@
 langcode: ja
 status: false
 dependencies: {  }
-id: ga
+id: ga_consent_mode
 label: 'Google アナリティクス'
 description: 'Tracks online visits of the website as a service.'
 default: false
@@ -29,11 +29,9 @@ cookies:
     domain: ''
 callback_code: ''
 on_init: ''
-on_accept: ''
-on_decline: ''
-javascripts:
-  - analytics.js
+on_accept: "gtag('consent', 'update', {\r\n  'analytics_storage': 'granted'\r\n});"
+on_decline: "gtag('consent', 'update', {\r\n  'analytics_storage': 'denied'\r\n});"
+javascripts: {  }
 wrapper_identifier: {  }
-attachments:
-  - ga4_google_analytics
+attachments: {  }
 weight: 1
