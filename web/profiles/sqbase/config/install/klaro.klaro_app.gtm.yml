@@ -16,6 +16,9 @@ purposes:
   - advertising
 cookies: {  }
 callback_code: ''
+on_init: ''
+on_accept: ''
+on_decline: ''
 javascripts:
   - gtm.js
   - gtag.js

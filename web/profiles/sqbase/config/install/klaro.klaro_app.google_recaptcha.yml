@@ -16,6 +16,9 @@ purposes:
   - security
 cookies: {  }
 callback_code: ''
+on_init: ''
+on_accept: ''
+on_decline: ''
 javascripts:
   - 'https://www.google.com/recaptcha/api.js'
   - 'https://www.recaptcha.net/recaptcha/api.js'

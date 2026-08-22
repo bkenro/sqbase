@@ -16,6 +16,9 @@ purposes:
   - cms
 cookies: {  }
 callback_code: ''
+on_init: ''
+on_accept: ''
+on_decline: ''
 javascripts: {  }
 wrapper_identifier:
   - .ai-alt-text-generation

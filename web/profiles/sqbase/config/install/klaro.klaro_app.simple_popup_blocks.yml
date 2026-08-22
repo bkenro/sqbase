@@ -20,6 +20,9 @@ cookies:
     path: ''
     domain: ''
 callback_code: "var block = document.querySelector('.simple-popup-blocks-global');\r\nif (false == consent && block) {\r\nblock.remove()\r\n}"
+on_init: ''
+on_accept: ''
+on_decline: ''
 javascripts:
   - /simple_popup_blocks/js/simple_popup_blocks.js
 wrapper_identifier: {  }

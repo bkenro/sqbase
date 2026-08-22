@@ -16,6 +16,9 @@ purposes:
   - external_content
 cookies: {  }
 callback_code: ''
+on_init: ''
+on_accept: ''
+on_decline: ''
 javascripts:
   - www.instagram.com/embed.js
 wrapper_identifier:

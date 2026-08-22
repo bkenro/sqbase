@@ -20,6 +20,9 @@ cookies:
     path: ''
     domain: ''
 callback_code: ''
+on_init: ''
+on_accept: ''
+on_decline: ''
 javascripts: {  }
 wrapper_identifier: {  }
 attachments: {  }

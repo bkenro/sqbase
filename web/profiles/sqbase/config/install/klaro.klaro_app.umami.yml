@@ -16,6 +16,9 @@ purposes:
   - analytics
 cookies: {  }
 callback_code: ''
+on_init: ''
+on_accept: ''
+on_decline: ''
 javascripts:
   - umami.js
 wrapper_identifier: {  }
